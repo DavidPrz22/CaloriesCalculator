@@ -1,9 +1,11 @@
 import { create } from "zustand";
 import { jwtDecode } from "jwt-decode";
 import { apiClient } from "@/api";
-import type { User, JwtPayload, LoginResponse, RefreshResponse } from "../types/types";
-import type { UserAuthSchemaType } from "../schemas/schemas";
+import type { User, JwtPayload } from "../types/types";
+// import type { UserAuthSchemaType } from "../schemas/schemas";
 import type { AxiosError, InternalAxiosRequestConfig } from "axios";
+import { refreshAccessToken } from "../api/api";
+
 
 interface CustomAxiosRequestConfig extends InternalAxiosRequestConfig {
   _retry?: boolean;
@@ -14,8 +16,6 @@ interface AuthState {
   accessToken: string | null;
   isLoading: boolean;
   isAuthenticated: boolean;
-  login: (credentials: UserAuthSchemaType) => Promise<void>;
-  logout: () => Promise<void>;
   refreshToken: () => Promise<string | null>;
   updateUser: (user: User) => void;
   setAuth: (user: User, accessToken: string) => void;
@@ -61,25 +61,10 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     }
   },
 
-  login: async (credentials: UserAuthSchemaType) => {
-    const response = await apiClient.post<LoginResponse>("/api/users/login", credentials);
-    const { user, accessToken } = response.data;
-    set({ user, accessToken, isAuthenticated: checkTokenExpiry(accessToken) });
-  },
-
-  logout: async () => {
-    try {
-      await apiClient.post("/api/users/logout");
-    } catch (error) {
-      console.error("Logout request failed:", error);
-    }
-    get().clearAuth();
-  },
 
   refreshToken: async (): Promise<string | null> => {
     try {
-      const response = await apiClient.post<RefreshResponse>("/api/users/refresh-token");
-      const { user, accessToken: newAccessToken } = response.data;
+      const { user, accessToken: newAccessToken } = await refreshAccessToken();
       set({ user, accessToken: newAccessToken, isAuthenticated: checkTokenExpiry(newAccessToken) });
       return newAccessToken;
     } catch (error) {

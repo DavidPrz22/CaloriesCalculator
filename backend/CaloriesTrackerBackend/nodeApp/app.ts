@@ -3,17 +3,10 @@ import cors from "cors";
 
 import { UserService } from '../Users/services/services';
 import { createCaloriesRouter } from '@/Calories/routes';
+import { getuserRoutes } from '../Users/routes';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-    // Removed session middleware
-    // Note: If you mount user routes like /login or /signup, ensure they are mounted BEFORE this middleware
-    // or apply validateJWT only to protected routes instead of globally!
-app.use(UserService.validateJWT); // Add JWT validation middleware
-
 
 app.use(cors({
     origin: [
@@ -26,6 +19,13 @@ app.use(cors({
     ],
     credentials: true
 }));
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+app.use('/api/users', getuserRoutes());
+
+app.use(UserService.validateJWT); // Add JWT validation middleware
 
 // Logger middleware
 app.use((req, res, next) => {

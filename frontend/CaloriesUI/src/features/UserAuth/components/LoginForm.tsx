@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Link } from "react-router";
-import { useLogin } from "../hooks/mutations/mutations";
+import { useLoginMutation } from "../hooks/mutations/mutations";
 import { UserAuthSchema, type UserAuthSchemaType } from "../schemas/schemas";
 import { useI18n } from "@/lib/i18n";
 import { Button } from "@/components/ui/button";
@@ -11,7 +11,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 export function LoginForm() {
   const { t } = useI18n();
-  const login = useLogin();
+  const login = useLoginMutation();
 
   const {
     register,

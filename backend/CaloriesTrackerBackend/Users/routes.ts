@@ -2,11 +2,12 @@ import Router, { type Router as RouterType } from 'express';
 /// <reference path="../nodeApp/types/express.d.ts" />
 import { UserSchema } from './zod';
 import { UserController } from './controller';  
+import { UserService } from './services/services';
 
 export function getuserRoutes () : RouterType {
     const userRoutes = Router();
 
-    userRoutes.get('/profile', async (req, res) => {
+    userRoutes.get('/profile', UserService.validateJWT, async (req, res) => {
         const user = req.user;
         if (!user) {
             return res.status(401).json({ error: 'Unauthorized' });
@@ -83,5 +84,28 @@ export function getuserRoutes () : RouterType {
         return res.status(201).json({ message: 'User registered successfully', user, accessToken: access });
     }) 
 
+
+    userRoutes.post('/logout', async (req, res) => {
+        const cookieHeader = req.headers.cookie;
+        const currentRefreshToken = cookieHeader?.split('; ').find(row => row.startsWith('refreshToken='))?.split('=')[1];
+
+        if (!currentRefreshToken) {
+            return res.status(400).json({ error: 'No refresh token provided' });
+        }
+        
+        const user = await UserController.getUserByRefreshToken(currentRefreshToken);
+
+        if (!user) {
+            return res.status(400).json({ error: 'Invalid refresh token' });
+        }
+
+        await UserController.clearRefreshTokenInDB(user.id);
+        res.clearCookie('refreshToken', {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === 'production',
+            sameSite: 'strict',
+        });
+        res.json({ message: 'Logout successful' });
+    })
     return userRoutes;
 }

@@ -1,28 +1,21 @@
-import { Link, NavLink, useNavigate } from "react-router";
+import { Link, NavLink } from "react-router";
 import { Menu, Leaf, Languages, Search, Database, Utensils, LogIn, LogOut, User } from "lucide-react";
 import { type ReactNode, useState } from "react";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n";
-import { useProfile, useAuthStore } from "@/features/UserAuth";
-import { apiClient } from "@/api";
+import { useProfile } from "@/features/UserAuth";
+import { useLogoutMutation } from "@/features/UserAuth/hooks/mutations/mutations";
 
 export function AppShell({ children }: { children: ReactNode }) {
   const { t, lang, setLang } = useI18n();
   const [open, setOpen] = useState(false);
   const { data: user } = useProfile();
-  const navigate = useNavigate();
 
-  const { clearAuth } = useAuthStore();
+  const logoutMutation = useLogoutMutation();
+  
   const handleLogout = async () => {
-    try {
-      await apiClient.post("/api/users/logout");
-    } catch (error) {
-      console.error("Logout failed:", error);
-    } finally {
-      clearAuth();
-      navigate("/login", { replace: true });
-    }
+      await logoutMutation.mutateAsync();
   };
 
   return (

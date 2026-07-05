@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Link } from "react-router";
 import { Leaf } from "lucide-react";
-import { useSignup } from "../hooks/mutations/mutations";
+import { useSignupMutation } from "../hooks/mutations/mutations";
 import { UserAuthSchema, type UserAuthSchemaType } from "../schemas/schemas";
 import { useI18n } from "@/lib/i18n";
 import { Button } from "@/components/ui/button";
@@ -12,7 +12,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 export function SignupForm() {
   const { t } = useI18n();
-  const signup = useSignup();
+  const signup = useSignupMutation();
 
   const {
     register,

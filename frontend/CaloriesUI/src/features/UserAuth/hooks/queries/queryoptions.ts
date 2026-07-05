@@ -7,6 +7,6 @@ export function profileQueryOptions() {
     queryKey: [USER_AUTH_KEY, "profile"],
     queryFn: getProfile,
     retry: false,
-    staleTime: 1000 * 60 * 5,
+    staleTime: Infinity,
   };
 }

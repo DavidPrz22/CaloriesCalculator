@@ -9,6 +9,17 @@ export interface LoginResponse {
   accessToken: string;
 }
 
+export interface SignupResponse {
+  message: string;
+  user: User;
+  accessToken: string;
+}
+
+
+export interface LogoutResponse {
+  message: string;
+}
+
 export interface RefreshResponse {
   message: string;
   user: User;

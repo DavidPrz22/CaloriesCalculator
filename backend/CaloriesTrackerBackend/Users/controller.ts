@@ -135,4 +135,11 @@ export class UserController {
             select: { id: true, username: true }
         });
     }
+
+    static async clearRefreshTokenInDB(userId: number) {
+        await prisma.user.update({
+            where: { id: userId },
+            data: { refreshToken: null },
+        });
+    }
 }

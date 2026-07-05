@@ -6,7 +6,7 @@ import type { FoodArg, CalculateNutrientsResponse, SaveConsumptionRequest } from
 
 export async function fetchCategories(): Promise<Categoria[]> {
   const data = await apiRequest(
-    apiClient.get<{ categories: Categoria[] }>("/categories"),
+    apiClient.get<{ categories: Categoria[] }>("/api/categories"),
     "fetchCategories"
   );
   return CategoriesResponseSchema.parse(data).categories;
@@ -14,7 +14,7 @@ export async function fetchCategories(): Promise<Categoria[]> {
 
 export async function fetchUnits(): Promise<Medida[]> {
   const data = await apiRequest(
-    apiClient.get<{ units: Medida[] }>("/units"),
+    apiClient.get<{ units: Medida[] }>("/api/units"),
     "fetchUnits"
   );
   return UnitsResponseSchema.parse(data).units;
@@ -32,7 +32,7 @@ export async function searchFood(params: {
     categoriaId: String(categoriaId),
   });
   const data = await apiRequest(
-    apiClient.get<{ foods: Comida[] }>(`/search-food?${searchParams}`),
+    apiClient.get<{ foods: Comida[] }>(`/api/search-food?${searchParams}`),
     "searchFood"
   );
   return SearchFoodResponseSchema.parse(data).foods;
@@ -41,7 +41,7 @@ export async function searchFood(params: {
 export async function calculateNutrition(items: FoodArg[]): Promise<CalculateNutrientsResponse> {
   const validatedItems = FoodArgSchema.array().parse(items);
   const data = await apiRequest(
-    apiClient.post<CalculateNutrientsResponse>("/calculate", validatedItems.length > 0 ? validatedItems : []),
+    apiClient.post<CalculateNutrientsResponse>("/api/calculate", validatedItems.length > 0 ? validatedItems : []),
     "calculateNutrition"
   );
   return CalculateNutrientsResponseSchema.parse(data);
@@ -70,7 +70,7 @@ export interface SavedConsumptionResponse {
 export async function saveConsumption(request: SaveConsumptionRequest): Promise<SavedConsumptionResponse> {
   const validatedRequest = SaveConsumptionRequestSchema.parse(request);
   const data = await apiRequest(
-    apiClient.post<SavedConsumptionResponse>("/save-consumption", validatedRequest),
+    apiClient.post<SavedConsumptionResponse>("/api/save-consumption", validatedRequest),
     "saveConsumption"
   );
   return data;
