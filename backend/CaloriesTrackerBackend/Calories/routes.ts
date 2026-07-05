@@ -75,6 +75,7 @@ import { ZodError }  from 'zod'
         try {
             const validatedQuery = GetConsumptionsQuerySchema.parse(req.query);
             const result = await CaloriesFoodController.getConsumptions(
+                req.user!.id, // Assuming user is attached to req by JWT middleware
                 validatedQuery.page,
                 validatedQuery.limit,
                 validatedQuery.startDate,
@@ -94,7 +95,7 @@ import { ZodError }  from 'zod'
         try {
             const id = parseInt(req.params.id);
             if (isNaN(id)) return res.status(400).json({ error: "Invalid ID" });
-            await CaloriesFoodController.deleteConsumption(id);
+            await CaloriesFoodController.deleteConsumption(id, req.user!.id);
             res.status(204).send();
         } catch (error) {
             res.status(500).json({ error: "Internal Server Error" });
@@ -105,7 +106,7 @@ import { ZodError }  from 'zod'
         try {
             const id = parseInt(req.params.id);
             if (isNaN(id)) return res.status(400).json({ error: "Invalid ID" });
-            const result = await CaloriesFoodController.getConsumptionDetail(id);
+            const result = await CaloriesFoodController.getConsumptionDetail(id, req.user!.id); 
             if (!result) return res.status(404).json({ error: "Not found" });
             res.status(200).json(result);
         } catch (error) {

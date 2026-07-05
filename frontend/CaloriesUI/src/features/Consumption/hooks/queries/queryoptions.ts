@@ -3,8 +3,9 @@ import { getConsumptionDetail, getConsumptions } from "../../api/api";
 import type { ConsumptionsApiResponse, itemsHistory } from "../../types/types";
 import type { ConsumoRecord } from "@/ZustandStores/useHistoryStore";
 
+export const CONSUMPTION_DETAIL_KEY = "consumption-detail"
 export const consumptionDetailQueryOptions = (id: number | null) => queryOptions({
-  queryKey: ["consumption-detail", id],
+  queryKey: [CONSUMPTION_DETAIL_KEY, id],
   queryFn: () => getConsumptionDetail(id!),
   enabled: id !== null,
 });

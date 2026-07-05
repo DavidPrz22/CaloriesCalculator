@@ -207,8 +207,8 @@ export class CaloriesFoodController {
         return await prisma.comida.delete({ where: { id } });
     }
 
-    static async getConsumptions(page: number = 1, limit: number = 50, startDate?: string, endDate?: string) {
-        const userId = 1;
+    static async getConsumptions(userId: number, page: number = 1, limit: number = 50, startDate?: string, endDate?: string, ) {
+
         const skip = (page - 1) * limit;
 
         const where: any = { userId };
@@ -231,15 +231,14 @@ export class CaloriesFoodController {
         return { items, total, page, limit, totalPages: Math.ceil(total / limit) };
     }
 
-    static async deleteConsumption(id: number) {
-        const userId = 1;
+    static async deleteConsumption(id: number, userId: number) {
         return await prisma.dataConsumo.delete({
             where: { id, userId },
         });
     }
 
-    static async getConsumptionDetail(id: number) {
-        const userId = 1;
+    static async getConsumptionDetail(id: number, userId: number) {
+
         return await prisma.dataConsumo.findUnique({
             where: { id, userId },
             include: {
