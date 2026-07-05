@@ -40,6 +40,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   isAuthenticated: false,
 
   clearAuth: () => {
+    localStorage.removeItem("hasSession");
     set({ user: null, accessToken: null, isAuthenticated: false });
   },
 
@@ -48,14 +49,20 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   },
 
   setAuth: (user: User, accessToken: string) => {
+    localStorage.setItem("hasSession", "true");
     set({ user, accessToken, isAuthenticated: checkTokenExpiry(accessToken) });
   },
 
   initializeAuth: async () => {
+    if (localStorage.getItem("hasSession") !== "true") {
+      set({ isLoading: false, user: null, accessToken: null, isAuthenticated: false });
+      return;
+    }
     try {
       await get().refreshToken();
     } catch {
       set({ user: null, accessToken: null, isAuthenticated: false });
+      localStorage.removeItem("hasSession");
     } finally {
       set({ isLoading: false });
     }

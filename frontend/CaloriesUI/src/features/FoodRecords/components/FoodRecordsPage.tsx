@@ -8,7 +8,7 @@ import { Database, Plus } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
 import type { Comida } from '../types';
 import { AppShell } from '@/components/AppShell';
-import { useProfile } from "@/features/UserAuth";
+import { useAuthStore } from "@/features/UserAuth";
 
 export function FoodRecordsPage() {
   const { t } = useI18n();
@@ -16,7 +16,7 @@ export function FoodRecordsPage() {
   const [search, setSearch] = useState('');
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [editingRecord, setEditingRecord] = useState<Comida | null>(null);
-    const { data: user } = useProfile();
+  const user = useAuthStore((state) => state.user);
 
   const { data, isLoading } = useComidas(page, 50, search);
   const deleteMutation = useDeleteComida();

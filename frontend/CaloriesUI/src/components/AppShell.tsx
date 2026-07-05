@@ -4,13 +4,13 @@ import { type ReactNode, useState } from "react";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n";
-import { useProfile } from "@/features/UserAuth";
+import { useAuthStore } from "@/features/UserAuth";
 import { useLogoutMutation } from "@/features/UserAuth/hooks/mutations/mutations";
 
 export function AppShell({ children }: { children: ReactNode }) {
   const { t, lang, setLang } = useI18n();
   const [open, setOpen] = useState(false);
-  const { data: user } = useProfile();
+  const user = useAuthStore((state) => state.user);
 
   const logoutMutation = useLogoutMutation();
   
