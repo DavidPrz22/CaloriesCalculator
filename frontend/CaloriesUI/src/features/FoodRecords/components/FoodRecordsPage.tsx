@@ -8,6 +8,7 @@ import { Database, Plus } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
 import type { Comida } from '../types';
 import { AppShell } from '@/components/AppShell';
+import { useProfile } from "@/features/UserAuth";
 
 export function FoodRecordsPage() {
   const { t } = useI18n();
@@ -15,6 +16,7 @@ export function FoodRecordsPage() {
   const [search, setSearch] = useState('');
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [editingRecord, setEditingRecord] = useState<Comida | null>(null);
+    const { data: user } = useProfile();
 
   const { data, isLoading } = useComidas(page, 50, search);
   const deleteMutation = useDeleteComida();
@@ -50,10 +52,12 @@ export function FoodRecordsPage() {
           </div>
 
         </div>
-        <Button size='lg' onClick={() => setIsFormOpen(true)} className="gap-2 cursor-pointer">
-          <Plus className="h-4 w-4" />
-          {t("create") || "Create New"}
-        </Button>
+        {user && (
+          <Button size='lg' onClick={() => setIsFormOpen(true)} className="gap-2 cursor-pointer">
+            <Plus className="h-4 w-4" />
+            {t("create") || "Create New"}
+          </Button>
+        )}
       </div>
 
       <div className="mb-6">

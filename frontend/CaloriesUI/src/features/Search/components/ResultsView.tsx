@@ -53,9 +53,9 @@ export function ResultsView() {
 
   return (
     <AppShell>
-      <ResultsHeader itemsCount={items.length} />
-      <ResultsTable items={items} totals={totals} />
-      <ResultsAction onSave={onSave} disabled={items.length === 0 || saveConsumption.isPending} />
+        <ResultsHeader itemsCount={items.length} />
+        <ResultsTable items={items} totals={totals} />
+        <ResultsAction onSave={onSave} disabled={items.length === 0 || saveConsumption.isPending} />
     </AppShell>
   );
 }

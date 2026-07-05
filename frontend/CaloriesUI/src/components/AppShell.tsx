@@ -19,7 +19,7 @@ export function AppShell({ children }: { children: ReactNode }) {
   };
 
   return (
-    <div className="min-h-screen bg-background bg-grain">
+    <div className="min-h-screen flex flex-col bg-background bg-grain">
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-5xl items-center px-4">
           <Link to="/" className="group flex items-center gap-2.5">
@@ -113,7 +113,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         </div>
       </header>
 
-      <main className="mx-auto max-w-5xl px-4 py-8 sm:py-12">{children}</main>
+      <main className="flex-1 w-full max-w-5xl m-auto px-4 py-8 sm:py-12">{children}</main>
     </div>
   );
 }

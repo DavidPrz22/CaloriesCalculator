@@ -36,9 +36,15 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<AuthPage />} />
             <Route path="/signup" element={<AuthPage />} />
-            <Route path="/foods" element={<RequireAuth><Foods/></RequireAuth>} />
+            <Route path="/foods" element={
+                <Foods/>
+            } />
             <Route path="/results" element={<Results/>} />
-            <Route path="/consumption" element={<RequireAuth><Consumption/></RequireAuth>} />
+            <Route path="/consumption" element={
+              <RequireAuth>
+                <Consumption/>
+              </RequireAuth>
+            } />
             <Route path="*" element={<NotFound/>} />
           </Routes>
         </BrowserRouter>

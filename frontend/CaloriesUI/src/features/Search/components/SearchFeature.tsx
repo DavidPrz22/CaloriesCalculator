@@ -55,7 +55,7 @@ export function SearchFeature() {
   };
 
   return (
-    <>
+    <div>
       <SearchHeader />
       <div className="rounded-2xl border border-border bg-card p-2 shadow-sm">
         <SearchInput
@@ -67,6 +67,6 @@ export function SearchFeature() {
         <SearchResults query={debouncedQuery} results={results} units={units} />
       </div>
       <PlateSection onCalculate={onCalculate} />
-    </>
+    </div>
   );
 }
