@@ -1,7 +1,6 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Link } from "react-router";
-import { Leaf } from "lucide-react";
 import { useSignupMutation } from "../hooks/mutations/mutations";
 import { UserAuthSchema, type UserAuthSchemaType } from "../schemas/schemas";
 import { useI18n } from "@/lib/i18n";
@@ -29,15 +28,12 @@ export function SignupForm() {
 
   return (
     <Card className="w-full max-w-md">
-      <CardHeader className="text-center">
-        <div className="mx-auto mb-2 grid h-12 w-12 place-items-center rounded-xl gradient-leaf text-primary-foreground">
-          <Leaf className="h-6 w-6" />
-        </div>
+      <CardHeader className="text-center py-8">
         <CardTitle className="font-display text-2xl">{t("signup")}</CardTitle>
         <CardDescription>{t("signupDesc")}</CardDescription>
       </CardHeader>
       <CardContent>
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+        <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
           <div className="space-y-2">
             <Label htmlFor="username">{t("username")}</Label>
             <Input id="username" {...register("username")} autoComplete="username" />
@@ -52,7 +48,7 @@ export function SignupForm() {
               <p className="text-sm text-destructive">{errors.password.message}</p>
             )}
           </div>
-          <Button type="submit" className="w-full" disabled={isSubmitting}>
+          <Button type="submit" className="w-full" disabled={isSubmitting} size="lg">
             {isSubmitting ? t("signingUp") : t("signup")}
           </Button>
         </form>

@@ -28,12 +28,12 @@ export function LoginForm() {
 
   return (
     <Card className="w-full max-w-md">
-      <CardHeader className="text-center">
+      <CardHeader className="text-center py-8">
         <CardTitle className="font-display text-2xl">{t("login")}</CardTitle>
         <CardDescription>{t("loginDesc")}</CardDescription>
       </CardHeader>
       <CardContent>
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+        <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
           <div className="space-y-2">
             <Label htmlFor="username">{t("username")}</Label>
             <Input id="username" {...register("username")} autoComplete="username" />
@@ -48,7 +48,7 @@ export function LoginForm() {
               <p className="text-sm text-destructive">{errors.password.message}</p>
             )}
           </div>
-          <Button type="submit" className="w-full" disabled={isSubmitting}>
+          <Button type="submit" className="w-full" disabled={isSubmitting} size="lg">
             {isSubmitting ? t("loggingIn") : t("login")}
           </Button>
         </form>

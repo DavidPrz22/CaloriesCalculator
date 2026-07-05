@@ -7,7 +7,7 @@ export function UserAuthFeature() {
   const isSignup = location.pathname === "/signup";
 
   return (
-    <div className="flex min-h-[calc(100vh-4rem)] items-center justify-center py-12">
+    <div className="flex min-h-[calc(100vh-16rem)] items-center justify-center">
       {isSignup ? <SignupForm /> : <LoginForm />}
     </div>
   );
