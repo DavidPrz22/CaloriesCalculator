@@ -8,6 +8,12 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Zap } from "lucide-react";
+
+const DEMO_CREDENTIALS = {
+  username: "demo@caloriestracker.com",
+  password: "demo1234",
+};
 
 export function LoginForm() {
   const { t } = useI18n();
@@ -16,6 +22,7 @@ export function LoginForm() {
   const {
     register,
     handleSubmit,
+    setValue,
     formState: { errors, isSubmitting },
   } = useForm<UserAuthSchemaType>({
     resolver: zodResolver(UserAuthSchema),
@@ -24,6 +31,12 @@ export function LoginForm() {
 
   const onSubmit = (data: UserAuthSchemaType) => {
     login.mutate(data);
+  };
+
+  const handleDemoLogin = () => {
+    setValue("username", DEMO_CREDENTIALS.username);
+    setValue("password", DEMO_CREDENTIALS.password);
+    handleSubmit(onSubmit)();
   };
 
   return (
@@ -52,6 +65,26 @@ export function LoginForm() {
             {isSubmitting ? t("loggingIn") : t("login")}
           </Button>
         </form>
+        <div className="mt-6 rounded-lg border border-dashed border-primary/30 bg-primary/5 p-4">
+          <div className="mb-3 flex items-center gap-2">
+            <Zap className="h-4 w-4 text-primary" />
+            <span className="text-sm font-medium">Demo Account</span>
+          </div>
+          <div className="mb-3 space-y-1 text-xs text-muted-foreground">
+            <p><span className="font-medium">Username:</span> {DEMO_CREDENTIALS.username}</p>
+            <p><span className="font-medium">Password:</span> {DEMO_CREDENTIALS.password}</p>
+          </div>
+          <Button
+            type="button"
+            variant="outline"
+            className="w-full"
+            onClick={handleDemoLogin}
+            disabled={isSubmitting}
+          >
+            <Zap className="mr-2 h-4 w-4" />
+            Try Demo
+          </Button>
+        </div>
         <p className="mt-4 text-center text-sm text-muted-foreground">
           {t("noAccount")}{" "}
           <Link to="/signup" className="font-medium text-primary hover:underline">

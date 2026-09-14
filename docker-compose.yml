@@ -1,0 +1,53 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: calories-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: calories_user
+      POSTGRES_PASSWORD: calories_password
+      POSTGRES_DB: nutritiondb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U calories_user -d nutritiondb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/CaloriesTrackerBackend/Dockerfile
+    container_name: calories-backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file:
+      - ./backend/CaloriesTrackerBackend/.env
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DATABASE_URL: postgresql://calories_user:calories_password@postgres:5432/nutritiondb?schema=public
+      CLIENT_ORIGIN: ${CLIENT_ORIGIN:-http://localhost:80}
+    ports:
+      - "3000:3000"
+
+  frontend:
+    build:
+      context: ./frontend/CaloriesUI
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:3000}
+    container_name: calories-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+
+volumes:
+  pgdata:

@@ -1,0 +1,118 @@
+# Implementation Plan: CaloriesTracker Live Web Demo with Docker & Demo Data
+
+Deploy a fully functional, recruiter-friendly live web demo for **CaloriesTracker** featuring a containerized backend, pre-seeded food nutrition database, a 1-click guest/demo account with pre-loaded daily meal entries, and production-ready cross-origin settings.
+
+---
+
+## 1. Architecture Strategy
+
+```mermaid
+graph LR
+    subgraph Client ["Client Layer"]
+        RecruiterBrowser["Recruiter Browser"]
+    end
+
+    subgraph FrontendHost ["Frontend (Vercel / Docker Nginx)"]
+        UI["React 19 + Vite SPA"]
+        OneClickDemo["1-Click 'Try Demo' Button"]
+    end
+
+    subgraph BackendDocker ["Backend Docker Container (Render / Cloud / VPS)"]
+        ExpressApp["Express 5 REST API"]
+        PrismaORM["Prisma Client"]
+    end
+
+    subgraph PersistentDB ["PostgreSQL Database (Neon / Managed / Docker Volume)"]
+        DB[(PostgreSQL)]
+        SeedFood["Food Database (USDA / CSVs)"]
+        SeedUser["Demo User + Meal History"]
+    end
+
+    RecruiterBrowser --> UI
+    UI --> OneClickDemo
+    OneClickDemo --> ExpressApp
+    UI -->|API Requests with JWT| ExpressApp
+    ExpressApp --> PrismaORM
+    PrismaORM --> DB
+    DB --> SeedFood
+    DB --> SeedUser
+```
+
+---
+
+## 2. Proposed Changes
+
+### Component 1: Database Seeding for Recruiters
+Currently, seeding scripts exist separately in `prisma/scripts/` and only populate partial data. We need a unified, resilient seed script so the demo is instantly interactive.
+
+#### [NEW] [seed_demo.ts](file:///wsl.localhost/Ubuntu/home/davidprz/projects/CaloriesTracker/backend/CaloriesTrackerBackend/prisma/scripts/seed_demo.ts)
+- **Categorias & Medidas**: Populates all standard food categories and measurement units (grams, ml, cups, pieces, etc.).
+- **Food Data Ingestion**: Loads common foods and FDC items with calories, carbs, fat, and protein directly into `Comida`.
+- **Demo User Creation**:
+  - Creates demo account: `demo@caloriestracker.com` (hashed bcrypt password `demo1234`).
+  - Pre-populates daily meal history (`DataConsumo` & `DataConsumoDetalle`) for today and yesterday with realistic breakfast, lunch, and snack entries.
+  - Ensures nutrition progress bars, macro circles, and calorie charts render immediately on first login.
+
+---
+
+### Component 2: Dockerization (Backend & Full Stack)
+
+#### [NEW] [Dockerfile](file:///wsl.localhost/Ubuntu/home/davidprz/projects/CaloriesTracker/backend/CaloriesTrackerBackend/Dockerfile)
+- Multi-stage Node 22 build using `pnpm`.
+- Installs dependencies, runs `prisma generate`, compiles TypeScript, and runs the server via `node` / `tsx`.
+- Includes automated startup script that optionally runs `npx prisma migrate deploy` on boot.
+
+#### [NEW] [docker-compose.yml](file:///wsl.localhost/Ubuntu/home/davidprz/projects/CaloriesTracker/docker-compose.yml)
+- Root compose configuration defining:
+  - `postgres`: Containerized database with persistent volume `pgdata`.
+  - `backend`: Linked to `postgres`, with environment variables for port, JWT secret, and CORS.
+  - `frontend`: Vite preview or Nginx container serving built static assets and proxying `/api`.
+- Allows running the full live demo locally or on any VPS with a single `docker compose up --build`.
+
+---
+
+### Component 3: Backend Production Configuration
+
+#### [MODIFY] [constants.ts](file:///wsl.localhost/Ubuntu/home/davidprz/projects/CaloriesTracker/backend/CaloriesTrackerBackend/nodeApp/constants.ts) & [app.ts](file:///wsl.localhost/Ubuntu/home/davidprz/projects/CaloriesTracker/backend/CaloriesTrackerBackend/nodeApp/app.ts)
+- Allow dynamic origins via `CLIENT_ORIGIN` environment variable (e.g. `https://calories-tracker.vercel.app`), while maintaining local `localhost:5173` fallback for development.
+- Add `app.set('trust proxy', 1)` for HTTPS reverse proxies (Render, Railway, Nginx).
+
+#### [MODIFY] [Users/routes.ts](file:///wsl.localhost/Ubuntu/home/davidprz/projects/CaloriesTracker/backend/CaloriesTrackerBackend/Users/routes.ts)
+- Update `res.cookie('refreshToken', ...)` configuration:
+  - In production (`NODE_ENV === 'production'`), set `sameSite: 'none'` and `secure: true` so cross-site cookies between different deployment domains (e.g. Vercel frontend + Render backend) are accepted by modern browsers.
+- Add a dedicated `/api/users/demo-login` route that automatically logs in the demo account without password prompts.
+
+---
+
+### Component 4: Frontend "1-Click Demo" & Dynamic API
+
+#### [MODIFY] [client.ts](file:///wsl.localhost/Ubuntu/home/davidprz/projects/CaloriesTracker/frontend/CaloriesUI/src/api/client.ts)
+- Replace hardcoded `baseURL: "http://localhost:3000"` with `import.meta.env.VITE_API_BASE_URL || "http://localhost:3000"`.
+
+#### [MODIFY] [LoginForm.tsx](file:///wsl.localhost/Ubuntu/home/davidprz/projects/CaloriesTracker/frontend/CaloriesUI/src/features/UserAuth/components/LoginForm.tsx)
+- Add a prominent **"⚡ Try Demo as Guest"** button.
+- Triggers the demo login flow, automatically setting auth tokens in the Zustand store and redirecting directly to the nutrition dashboard with pre-loaded data.
+
+#### [NEW] [vercel.json](file:///wsl.localhost/Ubuntu/home/davidprz/projects/CaloriesTracker/frontend/CaloriesUI/vercel.json)
+- SPA routing rewrite rule to redirect all routes to `index.html` on Vercel:
+  ```json
+  {
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  }
+  ```
+
+---
+
+## 3. Verification Plan
+
+### Automated / Build Verification
+- **Frontend Build**: Run `pnpm run build` in `frontend/CaloriesUI` to confirm clean compilation and asset bundling.
+- **Backend Docker Build**: Run `docker build -t caloriestracker-backend ./backend/CaloriesTrackerBackend` to ensure multi-stage Docker build succeeds.
+- **Seed Script Dry Run**: Test `seed_demo.ts` with tsx against a local test Postgres database to verify proper data insertion into `Categoria`, `Medida`, `Comida`, `User`, and `DataConsumo`.
+
+### Manual User Flow Verification
+1. Open the UI at login page.
+2. Click **"⚡ Try Demo as Guest"**.
+3. Verify immediate navigation to the dashboard.
+4. Verify today's calorie progress and macro breakdown charts are populated.
+5. Search for a food item (in Spanish and English), add it to consumption, and confirm real-time calculation.
