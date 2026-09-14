@@ -1,59 +1,26 @@
-FROM node:22-slim AS base
+FROM node:22-slim
+
 WORKDIR /app
 
-FROM base AS deps
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends openssl python3 make g++ \
+  && rm -rf /var/lib/apt/lists/*
+
 COPY package.json ./
 COPY prisma ./prisma/
-RUN npm install
-
-FROM base AS generate
-COPY --from=deps /app/node_modules ./node_modules
-COPY --from=deps /app/prisma ./prisma
-COPY prisma.config.ts prisma.config.js prisma.config.d.ts prisma.config.d.ts.map ./
+COPY prisma.config.ts ./
 COPY tsconfig.json ./
 COPY nodeApp ./nodeApp/
 COPY Users ./Users/
 COPY Calories ./Calories/
 COPY scripts ./scripts/
+COPY food_data ./food_data/
+
+RUN npm install --include=dev
 RUN npx prisma generate
 
-FROM base AS build
-COPY --from=deps /app/node_modules ./node_modules
-COPY --from=generate /app/prisma ./prisma
-COPY --from=generate /app/node_modules/.prisma ./node_modules/.prisma
-COPY --from=generate /app/node_modules/@prisma ./node_modules/@prisma
-COPY prisma.config.ts prisma.config.js prisma.config.d.ts prisma.config.d.ts.map ./
-COPY tsconfig.json ./
-COPY nodeApp ./nodeApp/
-COPY Users ./Users/
-COPY Calories ./Calories/
-COPY scripts ./scripts/
-RUN npx tsc || true
-
-FROM base AS production
 ENV NODE_ENV=production
 ENV FOOD_DATA_PATH=/app/food_data/foods_fdc
-WORKDIR /app
-
-COPY --from=deps /app/node_modules ./node_modules
-COPY --from=generate /app/prisma ./prisma
-COPY --from=generate /app/node_modules/.prisma ./node_modules/.prisma
-COPY --from=generate /app/node_modules/@prisma ./node_modules/@prisma
-COPY package.json ./
-
-COPY --from=build /app/nodeApp/*.js ./nodeApp/
-COPY --from=build /app/Users/*.js ./Users/
-COPY --from=build /app/Users/services/*.js ./Users/services/
-COPY --from=build /app/Calories/*.js ./Calories/
-COPY --from=build /app/Calories/services/*.js ./Calories/services/
-COPY --from=build /app/scripts/*.js ./scripts/
-COPY --from=build /app/prisma/scripts/*.js ./prisma/scripts/
-COPY --from=build /app/prisma.config.js ./
-
-COPY --from=build /app/nodeApp/apis/foodApi/*.js ./nodeApp/apis/foodApi/
-
-COPY food_data/foods_fdc /app/food_data/foods_fdc
-
 EXPOSE 3000
 
-CMD ["sh", "-c", "npx prisma migrate deploy && node prisma/scripts/seed_demo.js && node nodeApp/app.js"]
+CMD ["sh", "-c", "npx prisma migrate deploy && npx tsx prisma/scripts/seed_demo.ts && npx tsx nodeApp/app.ts"]
