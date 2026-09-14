@@ -23,4 +23,4 @@ ENV NODE_ENV=production
 ENV FOOD_DATA_PATH=/app/food_data/foods_fdc
 EXPOSE 3000
 
-CMD ["sh", "-c", "if [ -z \"$DATABASE_URL\" ] && [ -z \"$DATABASE_PRIVATE_URL\" ] && [ -z \"$PGHOST\" ]; then echo 'DATABASE_URL is missing on this service. Add it under backend → Variables as DATABASE_URL=${{Postgres.DATABASE_URL}}'; exit 1; fi; npx prisma migrate deploy && npx tsx prisma/scripts/seed_demo.ts && npx tsx nodeApp/app.ts"]
+CMD ["sh", "-c", "npx prisma migrate deploy && npx tsx prisma/scripts/seed_demo.ts & exec npx tsx nodeApp/app.ts"]
