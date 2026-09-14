@@ -1,0 +1,22 @@
+# Condiments and Spices
+- Salt
+- Black pepper
+- Cumin
+- Oregano
+- Cinnamon
+- Chili powder
+- Paprika
+- Paprika
+- Bay leaf
+- Thyme
+- Rosemary
+- Clove
+- Ginger
+- Curry
+- Mustard
+- Ketchup
+- Mayonnaise
+- Soy sauce
+- Vinegar
+- Sugar
+- Honey

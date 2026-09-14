@@ -1,0 +1,40 @@
+id,name,nameES,categoriaId,medidaId
+2706850,Lomi salmon,Salmón Lomi,8,1
+2706826,Salmon salad,Ensalada de salmón,8,1
+172343,"Fish oil, salmon","Aceite de pescado, salmón",8,1
+175160,"Fish, tuna salad","Pescado, ensalada de atún",8,1
+2706311,"Fish, tuna, canned","Pescado, atún, en conserva",8,1
+2706310,"Fish, tuna, cooked","Pescado, atún, cocido",8,1
+2706322,"Fish, tilapia, fried","Pescado, tilapia, frito",8,1
+2706320,"Fish, tilapia, grilled","Pescado, tilapia, a la parrilla",8,1
+2706318,"Fish, tilapia, NFS","Pescado, tilapia, NFS",8,1
+2707033,Sardine sandwich,Bocadillo de sardinas,8,1
+173578,"Fish oil, sardine","Aceite de pescado, sardina",8,1
+2706293,"Fish, sardines, canned","Pescado, sardinas, en conserva",8,1
+2706449,Shrimp cocktail,Cóctel de gambas,8,1
+2706458,Shrimp scampi,Gambas al ajillo,8,1
+2706364,"Shrimp, fried",Gambas fritas,8,1
+2706331,Octopus,Pulpo,8,1
+168019,Octopus (Alaska Native),Pulpo (de Alaska),8,1
+174218,"Mollusks, octopus, common, raw","Moluscos, pulpo, común, crudo",8,1
+174223,"Mollusks, squid, mixed species, raw","Moluscos, calamares, mezcla de especies, crudos",8,1
+2708977,"Rice with squid, Puerto Rican style","Arroz con calamares, al estilo puertorriqueño",8,1
+2747671,"Squid (calamari), frozen, tubes only","Calamares, congelados, solo los tubos",8,1
+2710629,Cape Cod,Cape Cod,8,1
+2706244,"Fish, cod, fried","Pescado, bacalao, frito",8,1
+2706242,"Fish, cod, grilled","Pescado, bacalao, a la parrilla",8,1
+2706306,"Fish, trout, fried","Pescado, trucha, frito",8,1
+2706304,"Fish, trout, grilled","Pescado, trucha, a la parrilla",8,1
+2706302,"Fish, trout, NFS","Pescado, trucha, NFS",8,1
+171962,"Fish, grouper, mixed species, raw","Pescado, mero, mezcla de especies, crudo",8,1
+171963,"Fish, grouper, mixed species, cooked, dry heat","Pescado, mero, mezcla de especies, cocinado, calor seco",8,1
+2706297,"Fish, bass, baked or broiled, coated","Pescado, lubina, al horno o a la parrilla, rebozado",8,1
+2706344,Crab,Cangrejo,8,1
+2706843,Crab salad made with imitation crab,Ensalada de cangrejo elaborada con imitación de cangrejo,8,1
+2706549,"Crab, cake","Cangrejo, pastel",8,1
+2708747,Dressing with oysters,Aderezo con ostras,8,1
+2708160,"Crackers, oyster","Galletas saladas, de ostras",8,1
+1999627,"Mushroom, oyster","Seta, seta de cardo",8,1
+2706350,Mussels,Mejillones,8,1
+174216,"Mollusks, mussel, blue, raw","Moluscos, mejillón, azul, crudo",8,1
+174217,"Mollusks, mussel, blue, cooked, moist heat","Moluscos, mejillón, azul, cocido, calor húmedo",8,1

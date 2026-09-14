@@ -1,0 +1,298 @@
+id,name,nameES,categoriaId,medidaId
+2709710,Sweet potato chips,Chips de boniato,19,1
+174783,"Snacks, sweet potato chips, unsalted","Aperitivos, chips de boniato, sin sal",19,1
+2709447,Vegetable chips,Chips de verduras,19,1
+2709563,Plantain chips,Chips de plátano,19,1
+173142,"Snacks, plantain chips, salted","Aperitivos, chips de plátano, salados",19,1
+2709427,"Potato chips, ruffled, plain","Patatas fritas onduladas, sin sabor",19,1
+2709425,"Potato chips, cheese flavored",Patatas fritas con sabor a queso,19,1
+2709430,"Potato chips, ruffled, cheese flavored",Patatas fritas onduladas con sabor a queso,19,1
+169682,"Snacks, potato chips, cheese-flavor","Aperitivos, patatas fritas, con sabor a queso",19,1
+2709424,"Potato chips, sour cream and onion flavored",Patatas fritas con sabor a crema agria y cebolla,19,1
+2709429,"Potato chips, ruffled, sour cream and onion flavored","Patatas fritas onduladas, con sabor a crema agria y cebolla",19,1
+167963,"Snacks, potato chips, sour-cream-and-onion-flavor","Aperitivos, patatas fritas, sabor a crema agria y cebolla",19,1
+167525,"Tostada shells, corn",Tostadas de maíz,19,1
+2707826,"Taco shell, corn",Tortilla de maíz para tacos,19,1
+2708577,"Nachos, cheese only","Nachos, solo con queso",19,1
+170291,"Fast foods, nachos, with cheese","Comida rápida, nachos con queso",19,1
+167559,"Snacks, tortilla chips, nacho cheese","Aperitivos, tortilla chips, queso para nachos",19,1
+2708204,"Tortilla chips, flavored","Tortilla chips, con sabor",19,1
+2708202,"Tortilla chips, plain","Tortilla chips, sin sabor",19,1
+2708212,"Tortilla chips, reduced sodium","Tortilla chips, con bajo contenido en sodio",19,1
+2708161,"Chips, rice","Patatas fritas, arroz",19,1
+173155,"Snacks, brown rice chips","Aperitivos, chips de arroz integral",19,1
+2707939,"Cookie, marshmallow, with rice cereal and chocolate chips","Galleta de malvavisco, con cereales de arroz y trocitos de chocolate",19,1
+2708101,"Cereal or Granola bar, NFS","Barrita de cereales o granola, NFS",19,1
+2708242,"Popcorn chips, plain","Chips de palomitas, sin sabor",19,1
+2708224,"Popcorn, microwave, plain","Palomitas de maíz, para microondas, sin aderezo",19,1
+2708225,"Popcorn, microwave, plain, light","Palomitas de maíz, para microondas, sin aditivos, light",19,1
+2708227,"Popcorn, microwave, butter flavored","Palomitas de maíz, para microondas, con sabor a mantequilla",19,1
+2708219,"Popcorn, air-popped, no butter added","Palomitas de maíz, hechas al aire, sin mantequilla añadida",19,1
+2708218,"Popcorn, movie theater, no butter added","Palomitas, cine, sin mantequilla añadida",19,1
+2708239,"Popcorn, caramel coated",Palomitas de maíz recubiertas de caramelo,19,1
+2708240,"Popcorn, caramel coated, with nuts",Palomitas de maíz recubiertas de caramelo con frutos secos,19,1
+167551,"Snacks, popcorn, caramel-coated, with peanuts","Aperitivos, palomitas recubiertas de caramelo con cacahuetes",19,1
+2708229,"Popcorn, microwave, cheese flavored","Palomitas de maíz, para microondas, con sabor a queso",19,1
+167960,"Snacks, popcorn, cheese-flavor","Aperitivos, palomitas, sabor a queso",19,1
+2708236,"Popcorn, ready-to-eat, cheese flavored","Palomitas de maíz, listas para comer, con sabor a queso",19,1
+2708241,"Popcorn, chocolate coated",Palomitas de maíz recubiertas de chocolate,19,1
+2708230,"Popcorn, microwave, kettle","Palomitas, microondas, hervidor",19,1
+2708223,"Popcorn, microwave, NFS","Palomitas, microondas, NFS",19,1
+173345,"Corn dogs, frozen, prepared","Corn dogs, congelados, preparados",19,1
+170492,"Corn pudding, home prepared","Pudín de maíz, casero",19,1
+175002,"Muffins, corn, commercially prepared","Magdalenas, maíz, preparadas industrialmente",19,1
+2708208,"Tortilla chips, other flavors (Doritos)","Chips de tortilla, otros sabores (Doritos)",19,1
+2707909,"Cookie, chocolate chip",Galleta con trocitos de chocolate,19,1
+2707912,"Cookie, chocolate chip sandwich",Bocadillo de galleta con trocitos de chocolate,19,1
+2707949,"Cookie, oatmeal, with chocolate chips",Galleta de avena con trocitos de chocolate,19,1
+2707952,"Cookie, peanut butter","Galleta, mantequilla de cacahuete",19,1
+2707970,"Cookie, butter or sugar","Galletas, mantequilla o azúcar",19,1
+2707953,"Cookie, peanut butter, with chocolate",Galleta de mantequilla de cacahuete con chocolate,19,1
+2707946,"Cookie, oatmeal, with raisins",Galleta de avena con pasas,19,1
+174963,"Cookies, oatmeal, with raisins",Galletas de avena con pasas,19,1
+333008,"Cookies, oatmeal, soft, with raisins","Galletas de avena, blanditas, con pasas",19,1
+2707988,"Cookie, sugar or plain, sugar free","De galleta, con azúcar o sin azúcar, sin azúcar",19,1
+2707989,"Cookie, sugar wafer, sugar free","Galleta, oblea de azúcar, sin azúcar",19,1
+175077,"Archway Home Style Cookies, Reduced Fat Ginger Snaps","Galletas Archway Home Style, galletas de jengibre bajas en grasa",19,1
+2707942,"Cookie, molasses","Galleta, melaza",19,1
+2707981,"Cookie, vanilla wafer","Galleta, oblea de vainilla",19,1
+2707975,"Cookie, vanilla sandwich","Galleta, sándwich de vainilla",19,1
+2707923,"Cookie, chocolate and vanilla sandwich","Sándwich de galleta, chocolate y vainilla",19,1
+2707935,"Cookie, lemon bar","Galleta, barrita de limón",19,1
+171859,"Cookies, gluten-free, lemon wafer","Galletas sin gluten, de limón",19,1
+174959,"Cookies, ladyfingers, with lemon juice and rind","Galletas tipo «ladyfingers», con zumo y ralladura de limón",19,1
+2707991,"Cookie, gluten free",Galleta sin gluten,19,1
+171858,"Cookies, gluten-free, chocolate wafer",Galletas sin gluten de chocolate,19,1
+2708162,Rice cake,Pastel de arroz,19,1
+168107,"Rice cake, cracker (include hain mini rice cakes)","Galletas de arroz, galletas saladas (incluidas las mini galletas de arroz Hain)",19,1
+2708345,Cake made with glutinous rice,Pastel elaborado con arroz glutinoso,19,1
+167529,"Crackers, snack, Goya Crackers","Galletas saladas, aperitivos, galletas saladas Goya",19,1
+2708136,"Crackers, oatmeal","Galletas saladas, copos de avena",19,1
+2708160,"Crackers, oyster","Galletas saladas, de ostras",19,1
+2708150,"Crackers, cheese","Galletas saladas, queso",19,1
+2708152,"Crackers, cheese (Goldfish)","Galletas saladas, queso (Goldfish)",19,1
+2708151,"Crackers, cheese (Cheez-It)","Galletas saladas, queso (Cheez-It)",19,1
+172749,"Crackers, whole-wheat","Galletas saladas, de trigo integral",19,1
+172742,"Crackers, matzo, whole-wheat","Galletas saladas, matzá, de trigo integral",19,1
+172823,"Crackers, whole-wheat, low salt","Galletas saladas, de trigo integral, bajas en sal",19,1
+174104,"Crackers, gluten-free, multi-seeded and multigrain","Galletas saladas, sin gluten, con semillas y multigrano",19,1
+168012,"Van's, The Perfect 10, Crispy Six Whole Grain + Four Seed Baked Crackers, Gluten Free","Van's, «The Perfect 10», galletas saladas crujientes «Crispy Six» de cereales integrales y cuatro semillas, sin gluten",19,1
+2708146,"Crackers, butter, plain","Galletas saladas, mantequilla, sin sabor",19,1
+2707924,"Cookie, chocolate wafer","Galleta, barquillo de chocolate",19,1
+2707973,"Cookie, sugar wafer","Galleta, oblea de azúcar",19,1
+2707930,"Cookie, fortune","Galleta, galleta de la suerte",19,1
+172722,"Cookies, fortune","Galletas, la bola de la fortuna",19,1
+2707927,"Cookie, coconut","Galleta, coco",19,1
+2707937,"Cookie, marshmallow, with coconut",Galleta de malvavisco con coco,19,1
+171847,"Cookies, coconut macaroon","Galletas, macarrones de coco",19,1
+2707900,"Cookie, almond",Galleta de almendra,19,1
+2707907,"Cookie, butterscotch, brownie","Galleta, caramelo, brownie",19,1
+2707904,"Cookie, brownie, without icing","Galleta, brownie, sin glaseado",19,1
+2707905,"Cookie, brownie, with icing or filling","Galletas, brownies, con glaseado o relleno",19,1
+2707855,"Cake or cupcake, apple","Tarta o magdalena, de manzana",19,1
+2707856,"Cake or cupcake, banana",Tarta o magdalena de plátano,19,1
+2707859,"Cake or cupcake, carrot",Tarta o magdalena de zanahoria,19,1
+174993,"Doughnuts, cake-type, chocolate, sugared or glazed","Donuts tipo bizcocho, de chocolate, azucarados o glaseados",19,1
+174990,"Doughnuts, cake-type, plain (includes unsugared, old-fashioned)","Donuts tipo bizcocho, sin relleno (incluidos los sin azúcar y los tradicionales)",19,1
+174991,"Doughnuts, cake-type, plain, chocolate-coated or frosted","Donuts, tipo bizcocho, sin relleno, recubiertos de chocolate o glaseados",19,1
+2707535,Almond paste,Pasta de almendra,19,1
+2705699,Dulce de leche,Dulce de leche,19,1
+173461,Dulce de Leche,Dulce de leche,19,1
+167975,"Candies, CARAMELLO Candy Bar","Dulces, barra de caramelo CARAMELLO",19,1
+168759,"Candies, MOUNDS Candy Bar","Caramelos, barra de chocolate MOUNDS",19,1
+168764,"Candies, REESE'S PIECES Candy","Caramelos, caramelos REESE'S PIECES",19,1
+2710359,"Candy, gummy","Caramelos, gominolas",19,1
+2710287,"Topping, marshmallow","Cobertura, malvavisco",19,1
+167995,"Candies, marshmallows","Caramelos, nubes",19,1
+2710353,"Candy, marshmallow","Caramelos, malvaviscos",19,1
+168771,Chewing gum,Chicle,19,1
+2710371,Chewing gum,Chicle,19,1
+169882,"Chewing gum, sugarless",Chicle sin azúcar,19,1
+2710361,"Candy, lollipop","Caramelo, piruleta",19,1
+2705408,"Almond milk, chocolate","Leche de almendras, chocolate",19,1
+167587,"Candies, milk chocolate","Caramelos, chocolate con leche",19,1
+2705517,Chocolate milk drink,Bebida de leche con chocolate,19,1
+2710336,Dark chocolate candy,Caramelos de chocolate negro,19,1
+2710338,Dark chocolate candy with nuts,Caramelos de chocolate negro con frutos secos,19,1
+169592,"Candies, SPECIAL DARK Chocolate Bar","Caramelos, tableta de chocolate negro ESPECIAL",19,1
+167571,"Candies, white chocolate","Caramelos, chocolate blanco",19,1
+2710339,White chocolate candy,Caramelos de chocolate blanco,19,1
+2708261,"Pretzels, hard, white chocolate coated",Pretzels duros recubiertos de chocolate blanco,19,1
+2710326,"Almonds, chocolate covered candy","Almendras, bombones recubiertos de chocolate",19,1
+168754,"Candies, milk chocolate, with almonds",Caramelos de chocolate con leche y almendras,19,1
+2710289,Chocolate hazelnut spread,Crema de chocolate y avellanas para untar,19,1
+168000,Chocolate-flavored hazelnut spread,Crema de avellanas con sabor a chocolate,19,1
+2710348,Chocolate candy with dried fruit,Caramelos de chocolate con frutos secos,19,1
+170663,"Ice creams, BREYERS, All Natural Light Mint Chocolate Chip","Helados, BREYERS, «All Natural Light» con trocitos de chocolate y menta",19,1
+2708260,"Pretzels, hard, chocolate coated","Pretzels duros, recubiertos de chocolate",19,1
+2710344,"Chocolate candy, cream filled",Caramelos de chocolate rellenos de crema,19,1
+2707908,"Cookie, bar, with chocolate","Galleta, barrita, con chocolate",19,1
+173137,"Formulated bar, POWER BAR, chocolate","Barrita energética, POWER BAR, chocolate",19,1
+2705641,"Ice cream bar, chocolate","Barrita de helado, chocolate",19,1
+168777,"Desserts, mousse, chocolate, prepared-from-recipe","Postres, mousse, chocolate, elaborados según receta",19,1
+175015,"Pie, chocolate mousse, prepared from mix, no-bake type","Tarta de chocolate, elaborada con preparado, sin hornear",19,1
+2710310,Gelatin dessert,Postre de gelatina,19,1
+2710311,Gelatin dessert with fruit,Postre de gelatina con fruta,19,1
+2710312,Gelatin salad with vegetables,Ensalada de gelatina con verduras,19,1
+2710314,"Gelatin dessert, sugar free, with fruit","Postre de gelatina, sin azúcar, con fruta",19,1
+2705779,"Cheese, cottage cheese, with gelatin dessert and fruit","Queso, requesón, postre de gelatina y fruta",19,1
+2705683,Flan,Flan,19,1
+169602,"Flan, caramel custard, dry mix","Flan, flan de caramelo, mezcla en polvo",19,1
+167574,"Desserts, flan, caramel custard, prepared-from-recipe","Postres, flan, natillas de caramelo, elaboradas siguiendo una receta",19,1
+2705682,Custard,Crema pastelera,19,1
+2708007,"Pie, custard","Tarta, natillas",19,1
+2708075,"Doughnut, custard-filled",Donut relleno de crema pastelera,19,1
+2705685,"Pudding, rice","Pudín, arroz",19,1
+168783,"Puddings, rice, dry mix","Pudines, arroz, mezclas en polvo",19,1
+168782,"Puddings, rice, ready-to-eat","Pudines, arroz, platos preparados",19,1
+2707889,"Cake, tres leche",Tarta de tres leches,19,1
+2708070,Churros,Churros,19,1
+2708113,"Cereal or granola bar, with rice cereal","Barrita de cereales o granola, con cereales de arroz",19,1
+174650,Milk and cereal bar,Barrita de leche y cereales,19,1
+2708083,Cereal or granola bar (Kellogg's Nutri-Grain Cereal Bar),Barrita de cereales o granola (barrita de cereales Nutri-Grain de Kellogg's),19,1
+2708095,Cereal or granola bar (Quaker Chewy Granola Bar),Barrita de cereales o granola (barrita de granola masticable de Quaker),19,1
+2708098,Cereal or granola bar (Quaker Chewy Dipps Granola Bar),Barrita de cereales o granola (barrita de granola «Chewy Dipps» de Quaker),19,1
+2708096,Cereal or granola bar (Quaker Chewy 90 Calorie Granola Bar),Barrita de cereales o granola (barrita de granola Quaker Chewy de 90 calorías),19,1
+173158,"Formulated Bar, SOUTH BEACH protein bar","Barrita «Formulated Bar», barrita proteica SOUTH BEACH",19,1
+2708122,Nutrition bar (Snickers Marathon Protein Bar),Barrita energética (Snickers Marathon Protein Bar),19,1
+2708124,Nutrition bar (South Beach Living High Protein Bar),Barrita nutricional (barrita alta en proteínas de South Beach Living),19,1
+2708105,"Cereal or granola bar, fruit and nut","Barrita de cereales o granola, fruta y frutos secos",19,1
+2708090,Cereal or granola bar (KIND Fruit and Nut Bar),Barrita de cereales o granola (barrita KIND de frutas y frutos secos),19,1
+173151,"Snacks, NUTRI-GRAIN FRUIT AND NUT BAR","Aperitivos, BARRITA DE FRUTA Y FRUTOS SECOS NUTRI-GRAIN",19,1
+173149,"Formulated bar, high fiber, chewy, oats and chocolate","Barrita elaborada, rica en fibra, masticable, con avena y chocolate",19,1
+2708110,"Cereal or granola bar, oats, nuts, coated with non-chocolate coating","Barrita de cereales o granola, avena, frutos secos, recubierta de un revestimiento que no es de chocolate",19,1
+170260,"Frozen novelties, KLONDIKE, SLIM-A-BEAR Fudge Bar, 98% fat free, no sugar added","Productos helados, KLONDIKE, barrita de chocolate SLIM-A-BEAR, 98 % sin grasa, sin azúcares añadidos",19,1
+2709313,"Frozen fruit juice bar, no sugar added","Barrita de zumo de fruta congelada, sin azúcares añadidos",19,1
+2705671,"Light ice cream bar, vanilla, chocolate coated","Barrita de helado light, de vainilla, recubierta de chocolate",19,1
+2708115,"Breakfast bar, date, with yogurt coating","Barrita de desayuno de dátiles, recubierta de yogur",19,1
+2707929,"Cookie, fig bar","Galleta, barrita de higos",19,1
+170282,"Candies, coconut bar, not chocolate covered","Caramelos, barrita de coco, sin recubrimiento de chocolate",19,1
+2708108,"Cereal or granola bar, with coconut, chocolate coated","Barrita de cereales o granola, con coco y recubierta de chocolate",19,1
+169863,"Snacks, granola bar, with coconut, chocolate coated","Aperitivos, barrita de muesli con coco, recubierta de chocolate",19,1
+173136,"Formulated bar, MARS SNACKFOOD US, SNICKERS MARATHON Energy Bar, all flavors","Barrita formulada, MARS SNACKFOOD US, SNICKERS MARATHON Energy Bar, todos los sabores",19,1
+2708120,Nutrition bar (PowerBar),Barrita energética (PowerBar),19,1
+2707736,"Bagel, wheat, with fruit and nuts","Bagel de trigo, con fruta y frutos secos",19,1
+2707577,Trail mix with chocolate,Mezcla de frutos secos con chocolate,19,1
+2707575,Trail mix with nuts,Mezcla de frutos secos,19,1
+2707574,"Trail mix, NFS","Mezcla de frutos secos, NFS",19,1
+2707504,"Mixed nuts, NFS","Mezcla de frutos secos, NFS",19,1
+2707505,"Mixed nuts, unroasted","Mezcla de frutos secos, sin tostar",19,1
+2709195,"Dried, fruit, NFS","Fruta seca, NFS",19,1
+2709207,"Peach, dried",Melocotón seco,19,1
+174796,"Snacks, vegetable chips, made from garden vegetables","Aperitivos y chips de verduras, elaborados con verduras de la huerta",19,1
+174791,"Snacks, vegetable chips, HAIN CELESTIAL GROUP, TERRA CHIPS","Aperitivos, chips de verduras, HAIN CELESTIAL GROUP, TERRA CHIPS",19,1
+2707436,"Edamame, cooked","Edamame, cocido",19,1
+168411,"Edamame, frozen, prepared","Edamame, congelado, preparado",19,1
+2758981,"Edamame, frozen, prepared","Edamame, congelado, preparado",19,1
+2707584,"Sunflower seeds, flavored",Pepitas de girasol aromatizadas,19,1
+2707585,"Sunflower seeds, NFS","Pepitas de girasol, NFS",19,1
+170562,"Seeds, sunflower seed kernels, dried","Semillas, pipas de girasol, secas",19,1
+2707580,"Pumpkin seeds, salted",Pepitas de calabaza saladas,19,1
+2707579,"Pumpkin seeds, NFS","Pepitas de calabaza, NFS",19,1
+2707581,"Pumpkin seeds, unsalted","Pepitas de calabaza, sin sal",19,1
+2707689,"Breadsticks, NFS","Palitos de pan, NFS",19,1
+2707690,"Breadsticks, hard, NFS","Palitos de pan, duros, NFS",19,1
+2707694,"Breadsticks, soft, frozen","Palitos de pan, blandos, congelados",19,1
+171628,Ham and cheese loaf or roll,Panecillo o barra de jamón y queso,19,1
+2708703,"Egg roll, with chicken or turkey","Rollito de primavera, con pollo o pavo",19,1
+2707089,Turkey and ham sandwich on white,Bocadillo de pavo y jamón en pan blanco,19,1
+2707091,Turkey and ham sandwich on wheat,Bocadillo de pavo y jamón en pan de trigo,19,1
+2707652,Bruschetta,Bruschetta,19,1
+171370,"Babyfood, pretzels","Comida para bebés, pretzels",19,1
+2708247,"Pretzels, NFS","Pretzels, NFS",19,1
+169064,"Pretzels, soft",Pretzels blandos,19,1
+2708249,"Pretzels, hard, plain, salted","Pretzels, duros, sin sabor, salados",19,1
+2708278,"Pretzels, soft, from frozen, salted","Pretzels, blandos, congelados, salados",19,1
+2708250,"Pretzels, hard, plain, lightly salted","Pretzels, duros, sin sabor, ligeramente salados",19,1
+173156,"Snack, Pretzel, hard chocolate coated","Aperitivo, pretzel, recubierto de chocolate duro",19,1
+168076,"DENNY'S, mozzarella cheese sticks","DENNY'S, palitos de mozzarella",19,1
+174599,"Sausage, summer, pork and beef, sticks, with cheddar cheese","Salchichas, de verano, de cerdo y ternera, en palitos, con queso cheddar",19,1
+173341,"Macaroni and cheese, dry mix, prepared with 2% milk and 80% stick margarine from dry mix","Macarrones con queso, mezcla en polvo, preparados con un 2 % de leche y un 80 % de margarina en barra a partir de la mezcla en polvo",19,1
+2709469,"Potato, french fries, with cheese",Patatas fritas con queso,19,1
+2709470,"Potato, french fries, with chili and cheese",Patatas fritas con chile y queso,19,1
+2709466,"Potato, french fries, with cheese, school","Patatas, patatas fritas, con queso, colegio",19,1
+169011,"APPLEBEE'S, mozzarella sticks","APPLEBEE'S, palitos de mozzarella",19,1
+2705817,"Mozzarella sticks, breaded, baked, or fried","Palitos de mozzarella, rebozados, al horno o fritos",19,1
+169009,"APPLEBEE'S, french fries","APPLEBEE'S, patatas fritas",19,1
+167672,"DENNY'S, french fries","DENNY'S, patatas fritas",19,1
+170721,"McDONALD'S, french fries","McDONALD'S, patatas fritas",19,1
+169844,"DENNY'S, onion rings","DENNY'S, aros de cebolla",19,1
+2710055,Fried onion rings,Aros de cebolla fritos,19,1
+2708245,Onion flavored rings,Aros con sabor a cebolla,19,1
+2708580,"Nachos, chicken","Nachos, pollo",19,1
+2708576,"Nachos, NFS","Nachos, NFS",19,1
+2708582,"Nachos, with beans",Nachos con alubias,19,1
+2705902,Pork skin rinds,Cortezas de cerdo,19,1
+2708207,"Tortilla chips, cool ranch flavor (Doritos)","Tortilla chips, sabor «Cool Ranch» (Doritos)",19,1
+2708206,"Tortilla chips, nacho cheese flavor (Doritos)","Tortilla chips, sabor a queso para nachos (Doritos)",19,1
+2708203,Cheese flavored corn snacks (Cheetos),Aperitivos de maíz con sabor a queso (Cheetos),19,1
+2708201,"Cheese flavored corn snacks, reduced fat","Aperitivos de maíz con sabor a queso, bajos en grasa",19,1
+2708213,Snack mix,Mezcla de aperitivos,19,1
+2708717,Bacalaitos fritos,Bacalaitos fritos,19,1
+2708506,Frito pie,Frito pie,19,1
+2708198,"Corn chips, plain (Fritos)","Tortitas de maíz, sin sabor (Fritos)",19,1
+2709431,"Potato chips, ruffled, other flavored","Patatas fritas onduladas, con otros sabores",19,1
+2709428,"Potato chips, ruffled, barbecue flavored","Patatas fritas onduladas, con sabor a barbacoa",19,1
+168199,"Plantains, green, fried","Plátanos macho, verdes, fritos",19,1
+168200,"Plantains, yellow, fried, Latino restaurant","Plátanos macho, amarillos, fritos, restaurante latino",19,1
+2709559,"Plantain, cooked with oil","Plátano, cocinado con aceite",19,1
+2709565,Yuca fries,Patatas fritas de yuca,19,1
+2709711,"Sweet potato fries, frozen","Patatas fritas de boniato, congeladas",19,1
+2709709,"Sweet potato fries, NFS","Patatas fritas de boniato, NFS",19,1
+2709714,"Sweet potato fries, school","Patatas fritas de boniato, colegio",19,1
+170247,"Snacks, popcorn, oil-popped, white popcorn, salt added","Aperitivos, palomitas, palomitas blancas hechas con aceite, con sal añadida",19,1
+2707528,"Pistachio nuts, salted",Pistachos salados,19,1
+2707506,"Mixed nuts, with peanuts, salted","Mezcla de frutos secos, con cacahuetes, salados",19,1
+2707529,"Pistachio nuts, lightly salted","Pistachos, ligeramente salados",19,1
+2707515,"Peanuts, roasted, salted","Cacahuetes, tostados y salados",19,1
+2707517,"Peanuts, dry roasted, salted","Cacahuetes, tostados en seco, salados",19,1
+168594,"Seeds, sunflower seed kernels, toasted, with salt added","Semillas, pipas de girasol, tostadas, con sal añadida",19,1
+170154,"Seeds, sunflower seed kernels, toasted, without salt","Semillas, pipas de girasol, tostadas, sin sal",19,1
+2707793,"Bread, sunflower meal, toasted","Pan, harina de girasol, tostada",19,1
+2708291,"Snack mix, plain (Chex Mix)","Mezcla de aperitivos, sin condimentar (Chex Mix)",19,1
+174803,"Snack, Mixed Berry Bar","Aperitivo, barrita de frutos del bosque",19,1
+2708165,Popcorn cake,Tarta de palomitas,19,1
+2705630,"Ice cream, vanilla",Helado de vainilla,19,1
+167575,"Ice creams, vanilla","Helados, vainilla",19,1
+2705665,"Light ice cream, vanilla","Helado ligero, de vainilla",19,1
+2705632,"Ice cream, chocolate","Helado, chocolate",19,1
+168810,"Ice creams, strawberry","Helados, fresa",19,1
+170664,"Ice creams, BREYERS, No Sugar Added, Vanilla Chocolate Strawberry","Helados, BREYERS, sin azúcar añadido, vainilla, chocolate y fresa",19,1
+170662,"Ice creams, BREYERS, All Natural Light Vanilla Chocolate Strawberry","Helados, BREYERS, totalmente naturales: vainilla, chocolate y fresa",19,1
+172365,"Oil, industrial, coconut, confection fat, typical basis for ice cream coatings","Aceite, industrial, de coco, grasa para repostería; base habitual para las coberturas de helados",19,1
+167585,"Ice creams, chocolate, light","Helados, chocolate, ligero",19,1
+167572,"Ice creams, vanilla, light","Helados, vainilla, light",19,1
+2705505,"Milk shake, home recipe, chocolate, light","Batido, receta casera, chocolate, ligero",19,1
+2705506,"Milk shake, home recipe, flavors other than chocolate, light","Batido de leche, receta casera, sabores distintos al de chocolate, light",19,1
+173467,"Fat free ice cream, no sugar added, flavors other than chocolate","Helado sin grasa, sin azúcares añadidos, de sabores distintos al de chocolate",19,1
+168813,"Frozen novelties, ice type, pop","Productos helados, helados de agua, polos",19,1
+168132,"Frozen novelties, ice type, pop, with low calorie sweetener","Productos helados, tipo helado, piruletas, con edulcorante bajo en calorías",19,1
+170259,"Frozen novelties, ice type, sugar free, orange, cherry, and grape POPSICLE pops","Helados de novedad, tipo hielo, sin azúcar, de naranja, cereza y uva: POPSICLE",19,1
+2705456,Frozen yogurt sandwich,Bocadillo de yogur helado,19,1
+2705453,"Frozen yogurt, chocolate","Yogur helado, chocolate",19,1
+2705451,"Frozen yogurt, NFS","Yogur helado, NFS",19,1
+2710323,Snow cone,Granizado,19,1
+2709314,Sorbet,Sorbete,19,1
+2710322,Freezer pop,Polito,19,1
+2705698,Mousse,Mousse,19,1
+2706448,Fish timbale or mousse,Timbal o mousse de pescado,19,1
+2705702,Tiramisu,Tiramisú,19,1
+2707863,"Cheesecake, chocolate","Tarta de queso, chocolate",19,1
+2707862,"Cheesecake, fruit","Tarta de queso, fruta",19,1
+2707861,"Cheesecake, plain","Tarta de queso, sin aderezos",19,1
+2707873,"Snack cake, chocolate","Pastelito, chocolate",19,1
+2707871,"Cake, chocolate, flourless","Pastel, chocolate, sin harina",19,1
+174942,"Cake, snack cakes, creme-filled, chocolate with frosting","Pasteles, pasteles de merienda, rellenos de crema, de chocolate con glaseado",19,1
+174932,"Cake, pudding-type, carrot, dry mix","Pastel tipo pudín de zanahoria, mezcla en polvo",19,1
+2708066,"Doughnut, cake type, with icing","Donut tipo bizcocho, con glaseado",19,1
+2708064,"Doughnut, chocolate",Donut de chocolate,19,1
+2708072,"Doughnut, yeast type","Donut, tipo de levadura",19,1
+2708327,"Waffle, chocolate","Gofre, chocolate",19,1
+2708328,"Waffle, cinnamon","Gofre, canela",19,1
+2708326,"Waffle, fruit","Gofre, fruta",19,1
+2707882,"Cake, pound","Pastel, bizcocho",19,1
+173243,"Cake, pound, commercially prepared, fat-free","Pastel, tipo «pound», preparado industrialmente, sin grasa",19,1
+167527,"Bread, pound cake type, pan de torta salvadoran","Pan tipo bizcocho, pan de torta salvadoreño",19,1
+2707844,"Muffin, zucchini",Magdalena de calabacín,19,1
+2707830,"Muffin, fruit","Magdalena, fruta",19,1
+2707845,"Muffin, carrot",Magdalena de zanahoria,19,1

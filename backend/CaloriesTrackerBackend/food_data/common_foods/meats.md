@@ -1,0 +1,17 @@
+# Meats
+- Chicken breast
+- Chicken thigh
+- Chicken leg
+- Ground beef
+- Beef steak
+- Beef rib
+- Pork chop
+- Pork loin
+- Pork bacon
+- Turkey
+- Lamb
+- Beef stew meat
+- Chorizo
+- Ham
+- Sausage
+- Jerky

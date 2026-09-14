@@ -1,0 +1,16 @@
+# Dairy
+- Whole milk
+- Skim milk
+- Fresh cheese
+- Manchego cheese
+- Cheddar cheese
+- Mozzarella cheese
+- Parmesan cheese
+- Cream cheese
+- Plain yogurt
+- Flavored yogurt
+- Butter
+- Sour cream
+- Cottage cheese
+- Ricotta
+- Kefir

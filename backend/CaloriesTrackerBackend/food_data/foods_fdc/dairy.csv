@@ -1,0 +1,40 @@
+id,name,nameES,categoriaId,medidaId
+2705385,"Milk, whole",Leche entera,6,1
+2705399,"Milk, evaporated, whole","Leche evaporada, entera",6,1
+2705467,"Chocolate milk, whole","Leche con chocolate, entera",6,1
+2705388,"Milk, fat free (skim)",Leche desnatada (sin grasa),6,1
+170887,"Yogurt, plain, skim milk","Yogur natural, leche desnatada",6,1
+170847,"Cheese, mozzarella, part skim milk","Queso, mozzarella, leche semidesnatada",6,1
+172223,"Cheese, fresh, queso fresco",Queso fresco,6,1
+2709484,"Potato, hash brown, from fresh, with cheese","Patatas, hash brown, elaboradas con patatas frescas, con queso",6,1
+2709497,"Potato, mashed, from fresh, made with milk, with cheese","Puré de patatas, elaborado con patatas frescas, con leche y queso",6,1
+2705709,"Cheese, Cheddar","Queso, cheddar",6,1
+2705710,"Cheese, Cheddar, reduced fat","Queso, cheddar, bajo en grasa",6,1
+2705722,"Cheese, Mozzarella, NFS","Queso, mozzarella, NFS",6,1
+172198,"Cheese substitute, mozzarella","Sustituto del queso, mozzarella",6,1
+169051,"Cheese, mozzarella, nonfat","Queso, mozzarella, desnatado",6,1
+171247,"Cheese, parmesan, grated",Queso parmesano rallado,6,1
+170848,"Cheese, parmesan, hard","Queso, parmesano, de pasta dura",6,1
+173418,"Cheese, cream","Queso, nata",6,1
+2705775,"Cheese spread, cream cheese","Queso para untar, queso crema",6,1
+2705762,"Cream cheese, light",Queso crema light,6,1
+2647437,"Yogurt, plain, nonfat",Yogur natural desnatado,6,1
+2705464,"Baby Toddler yogurt, plain","Yogur para bebés y niños pequeños, natural",6,1
+175227,SILK Plain soy yogurt,Yogur de soja natural SILK,6,1
+2705416,"Yogurt, NS as to type of milk or flavor","Yogur, sin especificar el tipo de leche ni el sabor",6,1
+168105,"Frozen yogurts, flavors other than chocolate","Yogures helados, sabores distintos al de chocolate",6,1
+2705415,"Yogurt, Greek, NS as to type of milk or flavor","Yogur griego, sin especificar el tipo de leche ni el sabor",6,1
+171314,"Butter, Clarified butter (ghee)","Mantequilla, mantequilla clarificada (ghee)",6,1
+2710302,Fruit butter,Mantequilla de fruta,6,1
+2710156,"Butter, tub","Mantequilla, en tarrina",6,1
+2705617,"Sour cream, imitation","Nata agria, imitación",6,1
+2705615,"Sour cream, light","Nata agria, light",6,1
+2705614,"Sour cream, regular","Nata agria, normal",6,1
+2705751,"Cheese, cottage, with fruit",Queso cottage con fruta,6,1
+2705749,"Cottage cheese, farmer's",Requesón artesanal,6,1
+2705747,"Cheese, cottage, NFS","Queso, cottage, NFS",6,1
+2705750,"Cheese, Ricotta","Queso, ricotta",6,1
+170851,"Cheese, ricotta, whole milk","Queso, ricotta, leche entera",6,1
+2705394,Kefir,Kéfir,6,1
+170904,"Kefir, lowfat, plain, LIFEWAY","Kéfir, bajo en grasa, natural, LIFEWAY",6,1
+171301,"Kefir, lowfat, strawberry, LIFEWAY","Kéfir, bajo en grasa, de fresa, LIFEWAY",6,1

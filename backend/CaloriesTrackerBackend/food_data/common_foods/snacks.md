@@ -1,0 +1,236 @@
+# Snacks
+
+## Potato Chips and Chips
+- Classic potato chips
+- Wavy potato chips
+- Thick-cut potato chips
+- Sweet potato chips
+- Sweet potato chips
+- Yuca chips
+- Plantain chips
+- Chifles
+- Beet chips
+- Kale chips
+- Carrot chips
+- Original flavor chips
+- BBQ flavor chips
+- Cheese flavor chips
+- Sour cream and onion chips
+- Lemon and chili chips
+- Salt and vinegar chips
+- Spicy chips
+- Corn tostadas
+- Wheat tostadas
+- Totopos
+- Nachos with cheese
+- Tortilla chips
+- Plantain chips
+- Rice chips
+- Coconut chips
+- Sweet potato chips
+
+## Popcorn and Corn
+- Plain popcorn
+- Butter popcorn
+- Caramel popcorn
+- Cheese popcorn
+- Chocolate popcorn
+- Spicy popcorn
+- Microwave popcorn
+- Prepared corn
+- Esquite
+- Corn in a cup
+- Grilled corn
+- Corn with chili and lime
+- Toasted corn
+- Pira corn
+- Canchita
+
+## Cookies and Sweets
+- Chocolate chip cookies
+- Butter cookies
+- Oatmeal raisin cookies
+- Sugar cookies
+- Ginger cookies
+- Vanilla cookies
+- Lemon cookies
+- Whole wheat cookies
+- Gluten-free cookies
+- Rice cakes
+- Crackers
+- Crackers
+- Cheese crackers
+- Whole wheat crackers
+- Seed crackers
+- Oreo-type cookies
+- María-type cookies
+- Wafer cookies
+- Wafer
+- Fortune cookies
+- Danish butter cookies
+- Coconut cookies
+- Almond cookies
+- Matcha cookies
+- Red velvet cookies
+- Brownies
+- Mini cakes
+- Cupcakes
+- Donuts
+- Donuts
+- Alfajores
+- Macarons
+- Turron
+- Marzipan
+- Dulce de leche
+- Candies
+- Gummies
+- Sour gummies
+- Marshmallows
+- Chewing gum
+- Lollipops
+- Lollipops
+- Milk chocolate
+- Dark chocolate
+- Dark chocolate
+- White chocolate
+- Chocolate with almonds
+- Chocolate with hazelnuts
+- Chocolate with dried fruits
+- Chocolate with mint
+- Chocolate truffles
+- Bonbons
+- Chocolate bar
+- Hot chocolate powder
+- Chocolate mousse
+- Gelatin
+- Gelatin with fruits
+- Flan
+- Custard
+- Rice pudding
+- Tres leches cake
+- Churros
+- Buñuelos
+- Torrejas
+- Sweet empanadas
+
+## Bars and Healthy Snacks
+- Cereal bars
+- Granola bars
+- Protein bars
+- Fruit and nut bars
+- Chocolate and oat bars
+- Sugar-free bars
+- Gluten-free bars
+- Date bars
+- Coconut bars
+- Energy bars
+- Trail mix
+- Mixed nuts
+- Mixed dried fruits
+- Dried fruits
+- Vegetable chips
+- Carrot sticks
+- Celery sticks
+- Hummus with crudités
+- Guacamole with totopos
+- Edamame
+- Sunflower seeds
+- Pumpkin seeds
+- Pretzel sticks
+- Breadsticks
+- Crudités with dip
+- Ham and cheese rolls
+- Turkey rolls
+- Mini sandwiches
+- Mini wraps
+- Bruschetta
+- Canapés
+- Cheese with crackers
+
+## Salty Snacks
+- Pretzels
+- Salted pretzels
+- Chocolate pretzels
+- Cheese sticks
+- Fried cheese
+- Mozzarella sticks
+- French fries
+- Onion rings
+- Nachos
+- Totopos with salsa
+- Totopos with guacamole
+- Totopos with beans
+- Chicharrón
+- Pork rind
+- Flour churros
+- Doritos
+- Cheetos
+- Fritos
+- Takis
+- Ruffles
+- Sabritas
+- Fried plantains
+- Chifles
+- Tostones
+- Fried yuca
+- Fried sweet potato
+- Salted popcorn
+- Caramel popcorn
+- Chili popcorn
+- Salted nuts
+- Japanese peanuts
+- Salted peanuts
+- Spicy peanuts
+- Toasted pumpkin seeds
+- Toasted sunflower seeds
+- Snack mix
+- Soy sticks
+- Puffed rice sticks
+- Chocolate puffed rice
+- Rice crispy treats
+- Puffed rice cakes
+
+## Ice Cream and Cold Desserts
+- Vanilla ice cream
+- Chocolate ice cream
+- Strawberry ice cream
+- Lemon ice cream
+- Mint ice cream
+- Coconut ice cream
+- Coffee ice cream
+- Pistachio ice cream
+- Walnut ice cream
+- Mango ice cream
+- Tropical fruit ice cream
+- Artisanal ice cream
+- Light ice cream
+- Low-fat ice cream
+- Sugar-free ice cream
+- Ice pops
+- Fruit popsicles
+- Milk popsicles
+- Yogurt popsicles
+- Frozen yogurt
+- Hand-churned ice cream
+- Shaved ice
+- Granita
+- Sorbet
+- Mousse
+- Flan
+- Gelatin
+- Semifreddo
+- Tiramisu
+- Cheesecake
+- Chocolate cake
+- Carrot cake
+- Tres leches cake
+- Brownie
+- Chocolate chip cookies
+- Glazed donut
+- Filled donut
+- Churros
+- Sweet crepe
+- Waffle
+- Pound cake
+- Muffin
+- Cupcake

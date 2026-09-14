@@ -1,0 +1,48 @@
+id,name,nameES,categoriaId,medidaId
+2759004,"Lunchmeat, chicken breast, sliced","Fiambre, pechuga de pollo, en lonchas",13,1
+2705964,"Chicken breast, rotisserie, skin not eaten","Pechuga de pollo asada al espeto, sin piel",13,1
+171515,"Chicken breast tenders, breaded, uncooked","Tiras de pechuga de pollo, empanadas, sin cocinar",13,1
+2706035,"Chicken thigh, rotisserie, skin eaten","Muslo de pollo, asado al espeto, con piel",13,1
+2706036,"Chicken thigh, rotisserie, skin not eaten","Muslo de pollo, asado al espeto, sin piel",13,1
+2706043,"Chicken thigh, sauteed, skin eaten","Muslo de pollo, salteado, con la piel incluida",13,1
+2705911,Mock chicken legs,Muslos de pollo falsos,13,1
+2705986,"Chicken leg, drumstick and thigh, rotisserie, skin eaten","Muslo, contramuslo y pata de pollo, asados al espeto, con piel",13,1
+2705987,"Chicken leg, drumstick and thigh, rotisserie, skin not eaten","Muslo, contramuslo y pata de pollo, asados al espeto, sin piel",13,1
+2705854,"Beef, ground",Carne de vacuno picada,13,1
+2705855,"Beef, ground, patty","Carne de vacuno picada, hamburguesa",13,1
+2705853,"Beef, ground, raw","Carne de vacuno picada, cruda",13,1
+2705852,"Beef, sandwich steak","Carne de vacuno, filete para sándwich",13,1
+2705825,"Beef, steak, chuck","Carne de vacuno, filete, paletilla",13,1
+2705826,"Beef, steak, cube","Carne de vacuno, filete, en dados",13,1
+174731,"Beef, New Zealand, imported, ribs prepared, raw","Carne de vacuno, de Nueva Zelanda, importada, costillas preparadas, cruda",13,1
+173405,"Beef, rib, back ribs, bone-in, separable lean and fat, trimmed to 0"" fat, choice, raw","Carne de vacuno, costilla, costillas traseras, con hueso, carne magra y grasa separables, recortadas hasta dejar 0"" de grasa, de calidad «Choice», cruda",13,1
+173406,"Beef, rib, back ribs, bone-in, separable lean and fat, trimmed to 0"" fat, select, raw","Carne de vacuno, costilla, costillas traseras, con hueso, con la parte magra y la grasa separables, recortada hasta dejar 0"" de grasa, de calidad «select», cruda",13,1
+2705872,"Pork, chop, stuffed","Carne de cerdo, chuleta, rellena",13,1
+2727575,"Pork, chop, center cut, raw","Carne de cerdo, chuleta, corte central, cruda",13,1
+2705867,"Pork, chop, lean and fat eaten","Carne de cerdo, chuleta, magra y grasa, consumida",13,1
+2646168,"Pork, loin, boneless, raw","Carne de cerdo, lomo, deshuesado, crudo",13,1
+2646169,"Pork, loin, tenderloin, boneless, raw","Carne de cerdo, lomo, solomillo, deshuesado, crudo",13,1
+168320,"HORMEL ALWAYS TENDER, Boneless Pork Loin, Fresh Pork","HORMEL ALWAYS TENDER, lomo de cerdo deshuesado, carne de cerdo fresca",13,1
+168277,"Pork, cured, bacon, unprepared","Carne de cerdo, curada, tocino, sin preparar",13,1
+168324,"Pork, bacon, rendered fat, cooked","Carne de cerdo, tocino, grasa fundida, cocinada",13,1
+2705890,"Bacon or side pork, fresh, cooked","Tocino o panceta, fresco o cocido",13,1
+173857,"Bologna, turkey","Bolonia, pavo",13,1
+173571,"Fat, turkey",Grasa de pavo,13,1
+171625,"Frankfurter, turkey","Salchicha de Frankfurt, pavo",13,1
+2705906,"Lamb, chop","Cordero, chuleta",13,1
+2705907,"Lamb, ground",Carne de cordero picada,13,1
+2706660,"Stew, lamb",Guiso de cordero,13,1
+2705849,"Beef, stew meat","Carne de vacuno, para guisar",13,1
+2706592,"Stew, beef",Estofado de ternera,13,1
+2706179,Chorizo,Chorizo,13,1
+173859,"Sausage, pork, chorizo, link or ground, raw","Salchicha, de cerdo, chorizo, en tiras o picada, cruda",13,1
+746781,"Sausage, pork, chorizo, link or ground, cooked, pan-fried","Salchicha, de cerdo, chorizo, en tiras o picada, cocinada, frita en la sartén",13,1
+2705878,Ham,Jamón,13,1
+2706402,Ham stroganoff,Stroganoff de jamón,13,1
+2706508,Ham croquette,Croqueta de jamón,13,1
+174584,"Sausage, smoked link sausage, pork","Salchicha, salchicha ahumada en ramilletes, carne de cerdo",13,1
+2706204,Pickled sausage,Salchicha en escabeche,13,1
+2706191,Pork sausage,Salchicha de cerdo,13,1
+2705860,Beef jerky,Carne seca,13,1
+2705865,Pork jerky,Carne de cerdo seca,13,1
+2705915,Venison/deer jerky,Carne seca de venado,13,1

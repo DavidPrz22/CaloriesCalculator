@@ -1,0 +1,13 @@
+# Nuts and Seeds
+- Almond
+- Walnut
+- Peanut
+- Pistachio
+- Cashew
+- Cashew
+- Macadamia nut
+- Sunflower seeds
+- Pumpkin seeds
+- Chia
+- Flaxseed
+- Sesame

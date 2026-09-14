@@ -1,0 +1,168 @@
+# Vegetables
+
+## Leafy Greens
+- Romaine lettuce
+- Iceberg lettuce
+- Butter lettuce
+- Spinach
+- Swiss chard
+- Kale
+- Kale (curly)
+- Arugula
+- Arugula
+- Watercress
+- Corn salad
+- Endive
+- Escarole
+- Napa cabbage
+- Pak choi
+- Green mustard
+- Turnip greens
+- Beet greens
+- Red lettuce
+- Leaf lettuce
+
+## Cruciferous Vegetables
+- Broccoli
+- Cauliflower
+- Green cabbage
+- Red cabbage
+- Brussels sprouts
+- Lombard cabbage
+- Broccoli romanesco
+- Romanesco
+- Savoy cabbage
+- Collard greens
+- Purple kale
+
+## Roots and Tubers
+- White potato
+- Red potato
+- Yellow potato
+- White potato
+- Red potato
+- Yellow potato
+- Sweet potato
+- Orange carrot
+- Purple carrot
+- Yellow carrot
+- Beet
+- Beet
+- Turnip
+- Radish
+- Jicama
+- Sweet yuca
+- Bitter yuca
+- Sweet cassava
+- Bitter cassava
+- Malanga
+- Taro
+- Yam
+- Chayote root
+- Celeriac
+- Parsnip
+- Purple sweet potato
+- Oca
+- Rutabaga
+- Arracacha
+- Maca
+- Yellow potato
+- Creole potato
+- Fried yuca
+- White sweet potato
+- Tania
+- Otoe
+- White yam
+- Yellow yam
+
+## Vegetable Fruits
+- Saladette tomato
+- Cherry tomato
+- Grape tomato
+- Pear tomato
+- Spanish cucumber
+- Persian cucumber
+- English cucumber
+- Zucchini
+- Zucchini
+- Purple eggplant
+- White eggplant
+- Japanese eggplant
+- Red bell pepper
+- Green bell pepper
+- Yellow bell pepper
+- Red bell pepper
+- Green bell pepper
+- Yellow bell pepper
+- Jalapeño pepper
+- Serrano pepper
+- Poblano pepper
+- Habanero pepper
+- Jalapeño chili
+- Serrano chili
+- Poblano chili
+- Habanero chili
+- Tomatillo
+- Tomatillo
+- Castilla squash
+- Spaghetti squash
+- Acorn squash
+- Ayote (squash)
+- Pea pods
+- Green bean
+- Corn
+- Corn on the cob
+- Corn on the cob
+- Avocado
+- Avocado
+- Okra
+- Okra
+- Gherkin
+
+## Bulbs and Allium
+- White onion
+- Red onion
+- Yellow onion
+- Green onion
+- Garlic
+- Scallion
+- Green onion
+- Leek
+- Shallot
+- Purple onion
+- Sweet onion
+- Elephant garlic
+
+## Mushrooms
+- Button mushroom
+- Agaricus mushroom
+- Portobello
+- Shiitake
+- Mushrooms
+- Enoki
+- Maitake
+- Black trumpet
+- Porcini
+- Chanterelle
+- Oyster mushroom
+- Cremini mushroom
+- Morel
+- Morel
+
+## Other Vegetables
+- Celery
+- Green asparagus
+- White asparagus
+- Purple asparagus
+- Artichoke
+- Fennel
+- Heart of palm
+- Nopal (cactus)
+- Bamboo shoots
+- Heart of palm
+- Soy pods
+- Edamame
+- Watercress
+- Turnip tops
+- Cardoon
+- Chayote fruit

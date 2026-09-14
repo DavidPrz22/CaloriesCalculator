@@ -1,0 +1,100 @@
+# Fruits
+
+## Common Fruits
+- Red apple
+- Green apple
+- Yellow apple
+- Plantain
+- Banana
+- Navel orange
+- Valencia orange
+- Strawberry
+- Green grape
+- Red grape
+- Black grape
+- Green pear
+- Red pear
+- Watermelon
+- Melon
+- Pineapple
+- Mango
+- Kiwi
+- Peach
+- Melocotón (peach)
+- Tangerine
+- Green lemon
+- Yellow lemon
+- Sweet cherry
+- Sour cherry
+- Blackberry
+- Blueberry
+- Papaya
+- Guava
+- Black plum
+- Yellow plum
+- Nectarine
+- Grapefruit
+- Toronja (grapefruit)
+- Lime
+- Raspberry
+- Pomegranate
+
+## Tropical Fruits
+- Coconut
+- Passion fruit
+- Passion fruit (maracuyá)
+- Soursop
+- Soursop
+- Mamey
+- Zapote
+- Cherimoya
+- Lychee
+- Lychee
+- Rambutan
+- Durian
+- Jackfruit
+- Jackfruit
+- Tamarind
+- Guineo (banana)
+- Plantain
+- Pitahaya
+- Dragon fruit
+- Acerola
+- Camu camu
+- Feijoa
+- White sapote
+- Annona
+- Star apple
+- Caimito
+
+## Seasonal and Regional Fruits
+- Fig
+- Quince
+- Tejocote (hawthorn)
+- Capulin (cherry)
+- Prickly pear
+- Prickly pear fruit
+- Date
+- Loquat
+- Loquat
+- Currant
+- Sloe
+- Gooseberry
+- Physalis
+- Goldenberry
+- Wild apple
+- Wild pear
+
+## Dried and Dehydrated Fruits
+- Raisins
+- Dried grape
+- Prune
+- Dried date
+- Dried fig
+- Dried apricot
+- Dried apricot
+- Dried mango
+- Dried pineapple
+- Dried coconut
+- Dried blueberry
+- Dried cranberry

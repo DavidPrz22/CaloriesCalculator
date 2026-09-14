@@ -1,0 +1,272 @@
+id,name,nameES,categoriaId,medidaId
+2708990,Beans and white rice,Alubias y arroz blanco,5,1
+2708422,"Rice, white, cooked, glutinous",Arroz blanco cocido y glutinoso,5,1
+2708994,Black beans and white rice,Frijoles negros y arroz blanco,5,1
+2709033,Beans and brown rice,Alubias y arroz integral,5,1
+1104812,"Flour, rice, brown","Harina, arroz, integral",5,1
+168898,"Rice flour, brown",Harina de arroz integral,5,1
+2708404,"Rice, white, cooked, made with oil","Arroz blanco cocido, preparado con aceite",5,1
+2708408,"Rice, white, cooked, no added fat","Arroz blanco cocido, sin grasas añadidas",5,1
+2708403,"Rice, white, cooked, NS as to fat",Arroz blanco cocido; sin datos sobre el contenido en grasa,5,1
+2709103,"Rice, brown, with cheese and/or cream based sauce, fat added","Arroz integral con queso y/o salsa a base de nata, con grasa añadida",5,1
+2709121,"Rice, brown, with vegetables, cheese and/or cream based sauce, fat added","Arroz integral con verduras, queso y/o salsa a base de nata, con grasa añadida",5,1
+168897,"Wild rice, cooked","Arroz silvestre, cocido",5,1
+169726,"Wild rice, raw","Arroz silvestre, crudo",5,1
+2709081,"Flavored rice, brown and wild","Arroz aromatizado, integral y silvestre",5,1
+173263,"Rice, brown, parboiled, cooked, UNCLE BENS","Arroz integral, precocido, cocido, UNCLE BENS",5,1
+168876,"Rice, brown, parboiled, dry, UNCLE BEN'S","Arroz integral, precocido, seco, UNCLE BEN'S",5,1
+169708,"Rice, white, long-grain, parboiled, enriched, cooked","Arroz blanco, de grano largo, precocido, enriquecido, cocido",5,1
+2710838,"Rice, red, unenriched, dry, raw","Arroz rojo, sin enriquecer, seco, crudo",5,1
+168065,"Restaurant, Latino, Arroz con habichuelas colorados (Rice And Red Beans)","Restaurante, cocina latina, arroz con alubias rojas",5,1
+2709035,Black beans and brown rice,Alubias negras y arroz integral,5,1
+2710825,"Rice, black, unenriched, raw","Arroz negro, sin enriquecer, crudo",5,1
+169048,"Babyfood, cereal, brown rice, dry, instant","Alimentos para bebés, cereales, arroz integral, secos, instantáneos",5,1
+167731,"Babyfood, cereal, rice with pears and apple, dry, instant fortified","Alimentos para bebés, cereales, arroz con peras y manzana, secos, instantáneos y enriquecidos",5,1
+169709,"Rice, white, long-grain, precooked or instant, enriched, dry","Arroz blanco de grano largo, precocido o instantáneo, enriquecido, seco",5,1
+173912,"Cereals ready-to-eat, rice, puffed, fortified","Cereales listos para el consumo, arroz, inflados, enriquecidos",5,1
+171651,"Cereals ready-to-eat, QUAKER, QUAKER Puffed Rice","Cereales listos para consumir, QUAKER, QUAKER Arroz inflado",5,1
+2708162,Rice cake,Pastel de arroz,5,1
+2708455,"Cereal, rice crispy, plain","Cereales, de arroz crujiente, sin sabor",5,1
+2708458,"Cereal, rice crispy, flavored","Cereales, arroz crujiente, con sabor",5,1
+172983,"Cereals ready-to-eat, MALT-O-MEAL, Crispy Rice","Cereales listos para consumir, MALT-O-MEAL, Crispy Rice",5,1
+2709745,Spaghetti sauce,Salsa para espaguetis,5,1
+169845,"DENNY'S, spaghetti and meatballs","DENNY'S, espaguetis con albóndigas",5,1
+2706470,Spaghetti sauce with meat,Salsa para espaguetis con carne,5,1
+2706483,Chili with macaroni,Chili con macarrones,5,1
+2708811,Macaroni or noodles with cheese,Macarrones o fideos con queso,5,1
+2708822,Macaroni or noodles with cheese and egg,Macarrones o fideos con queso y huevo,5,1
+169738,"Pasta, whole-wheat, dry (Includes foods for USDA's Food Distribution Program)",Pasta integral seca (Incluye alimentos para el Programa de Distribución de Alimentos del Departamento de Agricultura de los Estados Unidos [USDA]),5,1
+169751,"Pasta, cooked, enriched, with added salt","Pasta, cocida, enriquecida, con sal añadida",5,1
+169737,"Pasta, cooked, enriched, without added salt","Pasta, cocida, enriquecida, sin sal añadida",5,1
+2708929,"Macaroni or noodles, creamed, with cheese and tuna","Macarrones o fideos con salsa cremosa, queso y atún",5,1
+2708750,Lasagna with meat,Lasaña con carne,5,1
+2708758,"Lasagna, meatless",Lasaña sin carne,5,1
+2708751,"Lasagna with meat, canned","Lasaña con carne, en conserva",5,1
+173328,"Ravioli, cheese-filled, canned","Raviolis rellenos de queso, en conserva",5,1
+2708767,"Ravioli, cheese-filled, no sauce","Raviolis rellenos de queso, sin salsa",5,1
+2708763,"Ravioli, meat-filled, no sauce","Raviolis rellenos de carne, sin salsa",5,1
+2708792,"Tortellini, cheese-filled, no sauce","Tortellini rellenos de queso, sin salsa",5,1
+2708790,"Tortellini, meat-filled, no sauce","Tortellini rellenos de carne, sin salsa",5,1
+2708794,"Tortellini, spinach-filled, no sauce","Tortellini rellenos de espinacas, sin salsa",5,1
+2709140,"Noodles with vegetables in tomato-based sauce, diet frozen meal","Fideos con verduras en salsa de tomate, comida congelada light",5,1
+2708721,"Gnocchi, cheese","Ñoquis, queso",5,1
+2708722,"Gnocchi, potato",Ñoquis de patata,5,1
+168905,"Noodles, chinese, chow mein","Fideos, comida china, chow mein",5,1
+169735,"Noodles, flat, crunchy, Chinese restaurant","Fideos, planos, crujientes, restaurante chino",5,1
+174258,"Noodles, chinese, cellophane or long rice (mung beans), dehydrated","Fideos chinos, de celofán o de arroz largo (de judías mungo), deshidratados",5,1
+2708356,"Rice noodles, cooked","Fideos de arroz, cocidos",5,1
+168914,"Rice noodles, cooked","Fideos de arroz, cocidos",5,1
+169742,"Rice noodles, dry","Fideos de arroz, secos",5,1
+2707450,"Vermicelli, made from soybeans","Fideos finos, elaborados con soja",5,1
+168916,"Pasta, whole grain, 51% whole wheat, remaining unenriched semolina, cooked","Pasta integral, 51 % de trigo integral, el resto de sémola sin enriquecer, cocida",5,1
+168915,"Pasta, whole grain, 51% whole wheat, remaining unenriched semolina, dry","Pasta integral, 51 % de trigo integral, el resto sémola sin enriquecer, seca",5,1
+168910,"Pasta, whole-wheat, cooked (Includes foods for USDA's Food Distribution Program)","Pasta integral, cocida (Incluye alimentos para el Programa de Distribución de Alimentos del USDA)",5,1
+168900,"Pasta, gluten-free, corn, cooked","Pasta sin gluten, de maíz, cocida",5,1
+168899,"Pasta, gluten-free, corn, dry","Pasta sin gluten, de maíz, seca",5,1
+173265,"Pasta, gluten-free, corn and rice flour, cooked","Pasta sin gluten, de harina de maíz y arroz, cocida",5,1
+172026,"Pasta, gluten-free, brown rice flour, cooked, TINKYADA","Pasta sin gluten, harina de arroz integral, cocida, TINKYADA",5,1
+173264,"Pasta, gluten-free, rice flour and rice bran extract, cooked, DE BOLES","Pasta sin gluten, harina de arroz y extracto de salvado de arroz, cocida, DE BOLES",5,1
+172024,"Pasta, whole grain, 51% whole wheat, remaining enriched semolina, cooked (Includes foods for USDA's Food Distribution Program)","Pasta integral, con un 51 % de trigo integral y el resto de sémola enriquecida, cocida (incluye alimentos para el Programa de Distribución de Alimentos del Departamento de Agricultura de los Estados Unidos [USDA])",5,1
+2707598,"Bread, white",Pan blanco,5,1
+2707599,"Bread, white, toasted",Pan blanco tostado,5,1
+167532,"Bread, white wheat",Pan de trigo blanco,5,1
+2707709,"Bread, whole wheat",Pan integral,5,1
+2707730,"Bread, pita, whole wheat","Pan, pan de pita, trigo integral",5,1
+2707716,"Bread, whole wheat, with raisins",Pan integral con pasas,5,1
+2706983,Turkey sandwich on wheat,Bocadillo de pavo en pan de trigo,5,1
+2706984,"Turkey sandwich on wheat, with cheese","Bocadillo de pavo en pan de trigo, con queso",5,1
+2707755,"Bread, rye",Pan de centeno,5,1
+172684,"Bread, rye",Pan de centeno,5,1
+2707756,"Bread, rye, toasted","Pan de centeno, tostado",5,1
+172675,"Bread, french or vienna (includes sourdough)",Pan francés o vienés (incluido el pan de masa madre),5,1
+174911,"Bread, french or vienna, toasted (includes sourdough)","Pan, francés o vienés, tostado (incluido el de masa madre)",5,1
+2707610,"Bread, French or Vienna",Pan francés o vienés,5,1
+2707611,"Bread, French or Vienna, toasted","Pan, francés o vienés, tostado",5,1
+2707616,"Bread, pita","Pan, pan de pita",5,1
+2707617,"Bread, pita with fruit","Pan, pan de pita con fruta",5,1
+174915,"Bread, pita, white, enriched","Pan, pan de pita, pan blanco, pan enriquecido",5,1
+2707657,"Roll, white, hamburger bun",Panecillo blanco para hamburguesas,5,1
+2707784,"Roll, multigrain, hamburger bun","Panecillo, panecillo multigrano, panecillo de hamburguesa",5,1
+2707751,"Roll, whole wheat, hamburger bun",Panecillo integral para hamburguesas,5,1
+2706409,"Chili hot dog, no bun","Perrito caliente con chile, sin pan",5,1
+2707076,"Hot dog sandwich, vegetarian, on bun","Bocadillo de perrito caliente, vegetariano, en panecillo",5,1
+2707656,"Roll, white, hot dog bun",Panecillo blanco para perrito caliente,5,1
+2707678,Croissant,Croissant,5,1
+2707679,"Croissant, cheese","Croissant, queso",5,1
+2707680,"Croissant, chocolate",Croissant de chocolate,5,1
+167939,"Garlic bread, frozen","Pan de ajo, congelado",5,1
+2707626,"Garlic bread, NFS","Pan de ajo, NFS",5,1
+2707628,"Garlic bread, from frozen","Pan de ajo, congelado",5,1
+2707618,"Bread, cheese","Pan, queso",5,1
+167944,"Bread, cheese","Pan, queso",5,1
+2707619,"Bread, cheese, toasted","Pan, queso, tostado",5,1
+2707770,"Bread, oat bran","Pan, salvado de avena",5,1
+172676,"Bread, oat bran","Pan, salvado de avena",5,1
+2707771,"Bread, oat bran, toasted","Pan, salvado de avena, tostado",5,1
+2707777,"Bread, multigrain",Pan multigrano,5,1
+2707776,"Bread, multigrain, toasted","Pan, multigrano, tostado",5,1
+2707778,"Bread, multigrain, with raisins",Pan multigrano con pasas,5,1
+174918,"Bread, pumpernickel","Pan, pan de centeno",5,1
+2707760,"Bread, pumpernickel","Pan, pan de centeno",5,1
+2707761,"Bread, pumpernickel, toasted","Pan, pan de centeno, tostado",5,1
+2707614,"Bread, Italian, Grecian, Armenian","Pan, italiano, griego, armenio",5,1
+2707615,"Bread, Italian, Grecian, Armenian, toasted","Pan, italiano, griego, armenio, tostado",5,1
+2707612,"Focaccia, Italian, plain","Focaccia, italiana, sin ingredientes",5,1
+2707695,"Breadsticks, soft, with parmesan cheese, fast food / restaurant","Palitos de pan, blandos, con queso parmesano, comida rápida / restaurante",5,1
+2707613,"Bread, naan","Pan, naan",5,1
+171845,"Bread, naan, plain, commercially prepared, refrigerated","Pan, naan, sin aditivos, elaborado industrialmente, refrigerado",5,1
+174077,"Bread, naan, whole wheat, commercially prepared, refrigerated","Pan, naan, integral, elaborado industrialmente, refrigerado",5,1
+2707852,"Bread, Irish soda",Pan de soda irlandés,5,1
+174912,"Bread, irish soda, prepared from recipe","Pan de soda irlandés, elaborado según la receta",5,1
+2707702,Melba toast,Tostadas Melba,5,1
+2707703,Anisette toast,Brindis con anís,5,1
+2706567,Shrimp toast,Tostada de gambas,5,1
+2707793,"Bread, sunflower meal, toasted","Pan, harina de girasol, tostada",5,1
+167529,"Crackers, snack, Goya Crackers","Galletas saladas, aperitivos, galletas saladas Goya",5,1
+2708136,"Crackers, oatmeal","Galletas saladas, copos de avena",5,1
+2708160,"Crackers, oyster","Galletas saladas, de ostras",5,1
+2707968,"Cookie, animal","Cookie, animal",5,1
+2707689,"Breadsticks, NFS","Palitos de pan, NFS",5,1
+2707690,"Breadsticks, hard, NFS","Palitos de pan, duros, NFS",5,1
+2707694,"Breadsticks, soft, frozen","Palitos de pan, blandos, congelados",5,1
+171370,"Babyfood, pretzels","Comida para bebés, pretzels",5,1
+2708247,"Pretzels, NFS","Pretzels, NFS",5,1
+169064,"Pretzels, soft",Pretzels blandos,5,1
+2707684,Bagel,Bagel,5,1
+2707785,"Bagel, multigrain","Bagel, multigrano",5,1
+2707732,"Bagel, wheat","Bagel, de trigo",5,1
+2707698,"Muffin, English","Muffin, inglés",5,1
+2707700,"Muffin, English, cheese","Magdalena, inglesa, de queso",5,1
+2707787,"Muffin, English, multigrain","Magdalena, inglesa, multigrano",5,1
+2708343,Chinese pancake,Tortita china,5,1
+2710273,Pancake syrup,Sirope para tortitas,5,1
+2708308,"Pancakes, chocolate","Tortitas, chocolate",5,1
+2707886,"Cake, sponge","Tarta, bizcocho",5,1
+172706,"Cake, sponge, commercially prepared","Pastel, bizcocho, preparado industrialmente",5,1
+174943,"Cake, snack cakes, creme-filled, sponge","Pasteles, pastas, rellenos de crema, bizcochos",5,1
+174906,"Bread, banana, prepared from recipe, made with margarine","Pan con plátano, preparado según la receta, elaborado con margarina",5,1
+174638,"Cereals, QUAKER, Instant Oatmeal, Banana Bread, dry","Cereales, QUAKER, avena instantánea, pan de plátano, seco",5,1
+173923,"Cereals, QUAKER, Weight Control Instant Oatmeal, banana bread","Cereales, QUAKER, Copos de avena instantáneos para el control de peso, pan de plátano",5,1
+2707823,"Tortilla, corn",Tortilla de maíz,5,1
+2758997,"Tortilla, corn, shelf stable","Tortilla de maíz, de larga duración",5,1
+167656,Corned beef and potatoes in tortilla (Apache),Carne en salmuera con patatas en tortilla (Apache),5,1
+2707824,"Tortilla, flour",Tortilla de harina,5,1
+2708522,"Taco, flour tortilla, beef, cheese","Taco, tortilla de harina, ternera, queso",5,1
+2708526,"Taco, flour tortilla, chicken, cheese","Taco, tortilla de harina, pollo, queso",5,1
+2707825,"Tortilla, whole wheat",Tortilla de trigo integral,5,1
+174081,"Tortillas, ready-to-bake or -fry, whole wheat","Tortillas de trigo integral, listas para hornear o freír",5,1
+167525,"Tostada shells, corn",Tostadas de maíz,5,1
+2707826,"Taco shell, corn",Tortilla de maíz para tacos,5,1
+2709566,"Casabe, cassava bread","Casabe, pan de yuca",5,1
+2708571,"Tamale, beef","Tamale, ternera",5,1
+2708573,"Tamale, chicken","Tamale, pollo",5,1
+2708570,"Tamale, NFS","Tamale, NFS",5,1
+2708718,"Hayacas, Puerto Rican style","Hayacas, al estilo puertorriqueño",5,1
+2708610,"Pupusa, meat","Pupusa, carne",5,1
+2708609,"Pupusa, with beans",Pupusa con frijoles,5,1
+167661,"Restaurant, Latino, pupusas con frijoles (pupusas, bean)","Restaurante, cocina latina, pupusas con frijoles (pupusas, frijoles)",5,1
+2708585,"Gordita, meat","Gordita, carne",5,1
+2708584,"Gordita, with beans","Gordita, con alubias",5,1
+2708583,"Gordita, cheese only","Gordita, solo con queso",5,1
+2707818,"Gordita/sope shell, plain, no filling","Gordita/sope, sin relleno",5,1
+2708586,"Gordita, meat, with beans","Gordita, carne y alubias",5,1
+2708509,Taco or tostada salad with chicken,Ensalada de tacos o tostadas con pollo,5,1
+2708508,Taco or tostada salad with meat,Ensalada de tacos o tostadas con carne,5,1
+173345,"Corn dogs, frozen, prepared","Corn dogs, congelados, preparados",5,1
+170492,"Corn pudding, home prepared","Pudín de maíz, casero",5,1
+175002,"Muffins, corn, commercially prepared","Magdalenas, maíz, preparadas industrialmente",5,1
+2707129,"Soup, pozole","Sopa, pozole",5,1
+2709933,"Hominy, cooked","Maíz molido, cocido",5,1
+169701,"Hominy, canned, white","Maíz molido, en conserva, blanco",5,1
+169752,"Hominy, canned, yellow","Maíz molido, en conserva, amarillo",5,1
+169694,"Corn flour, masa, enriched, white","Harina de maíz, masa, enriquecida, blanca",5,1
+169696,"Corn flour, masa, unenriched, white","Harina de maíz, masa, sin enriquecer, blanca",5,1
+169749,"Corn flour, yellow, masa, enriched","Harina de maíz amarilla, masa, enriquecida",5,1
+175028,"Rolls, dinner, oat bran","Panecillos, cena, salvado de avena",5,1
+2346396,"Oats, whole grain, rolled, old fashioned","Avena integral, laminada, al estilo tradicional",5,1
+2707782,"Roll, multigrain","Panecillo, multigrano",5,1
+171661,"Cereals, oats, instant, fortified, plain, dry","Cereales, avena, instantáneos, enriquecidos, naturales, secos",5,1
+171664,"Cereals, oats, instant, fortified, with cinnamon and spice, dry","Cereales, avena, instantáneos, enriquecidos, con canela y especias, secos",5,1
+173920,"Cereals, oats, instant, fortified, maple and brown sugar, dry","Cereales, avena, instantáneos, enriquecidos, con sirope de arce y azúcar moreno, secos",5,1
+2261421,"Flour, oat, whole grain","Harina, avena, cereales integrales",5,1
+2346397,"Oats, whole grain, steel cut","Avena integral, cortada al acero",5,1
+2707933,"Cookie, granola","Galletas, muesli",5,1
+2708461,"Cereal, granola","Cereales, muesli",5,1
+2708099,Cereal or granola bar (Quaker Granola Bites),Barrita de cereales o granola (Quaker Granola Bites),5,1
+169075,"Cereals ready-to-eat, ALPEN","Cereales listos para consumir, ALPEN",5,1
+169076,"Cereals ready-to-eat, FAMILIA","Cereales listos para consumir, FAMILIA",5,1
+2708452,"Cereal, corn squares","Cereales, cuadraditos de maíz",5,1
+2708454,"Cereal, corn puffs","Cereales, bolitas de maíz",5,1
+2708474,"Cereal, corn flakes, flavored","Cereales, copos de maíz, con sabor",5,1
+2708453,"Cereal, corn flakes, plain","Cereales, copos de maíz, sin sabor",5,1
+167734,"Breakfast bar, corn flake crust with fruit","Barrita de desayuno, con base de copos de maíz y fruta",5,1
+2708480,"Cereal, wheat flakes","Cereales, copos de trigo",5,1
+2708476,"Cereal, wheat squares","Cereales, cuadraditos de trigo",5,1
+2708479,"Cereal, shredded wheat, plain","Cereales, trigo triturado, sin sabor",5,1
+2708457,"Cereal, shredded wheat, flavored","Cereales, trigo desmenuzado, aromatizados",5,1
+173894,"Cereals ready-to-eat, POST, Honey Nut Shredded Wheat","Cereales listos para consumir, POST, Honey Nut Shredded Wheat",5,1
+2708451,"Cereal, chocolate crispy",Cereales crujientes de chocolate,5,1
+2708449,"Cereal, chocolate puffs","Cereales, bolitas de chocolate",5,1
+2708484,"Cereal, other, chocolate","Cereales, otros, chocolate",5,1
+169040,"Cereals ready-to-eat, WEETABIX whole grain cereal","Cereales listos para consumir, cereales integrales WEETABIX",5,1
+171000,"Babyfood, Multigrain whole grain cereal, dry fortified","Alimentos para bebés, cereales integrales multigrano, secos y enriquecidos",5,1
+173648,"Beverages, coffee substitute, cereal grain beverage, powder, prepared with whole milk","Bebidas, sustituto del café, bebida a base de cereales, en polvo, preparada con leche entera",5,1
+2708105,"Cereal or granola bar, fruit and nut","Barrita de cereales o granola, fruta y frutos secos",5,1
+2708090,Cereal or granola bar (KIND Fruit and Nut Bar),Barrita de cereales o granola (barrita KIND de frutas y frutos secos),5,1
+169077,"Cereals ready-to-eat, wheat and bran, presweetened with nuts and fruits","Cereales listos para consumir, de trigo y salvado, endulzados con frutos secos y frutas",5,1
+168944,"Wheat flour, whole-grain, soft wheat","Harina de trigo integral, de trigo blando",5,1
+167942,"Crackers, saltines, whole wheat (includes multi-grain)","Galletas saladas, galletas sin mantequilla, de trigo integral (incluidas las multigrano)",5,1
+170285,"Barley, pearled, cooked","Cebada perlada, cocida",5,1
+170284,"Barley, pearled, raw","Cebada perlada, cruda",5,1
+172296,"Babyfood, cereal, barley, prepared with whole milk","Alimentos para bebés, cereales, cebada, elaborados con leche entera",5,1
+2708502,"Baby Toddler cereal, multigrain with fruit, ready-to-eat","Cereales para bebés y niños pequeños, multigrano con fruta, listos para consumir",5,1
+2708501,"Baby Toddler cereal, multigrain, ready-to-eat","Cereales para bebés y niños pequeños, multigrano, listos para consumir",5,1
+2512375,"Flour, rye",Harina de centeno,5,1
+2512371,"Flour, amaranth",Harina de amaranto,5,1
+170683,"Amaranth grain, cooked","Grano de amaranto, cocido",5,1
+170682,"Amaranth grain, uncooked","Grano de amaranto, sin cocer",5,1
+2708377,Millet,Mijo,5,1
+172023,Millet flour,Harina de mijo,5,1
+168871,"Millet, cooked","Mijo, cocido",5,1
+169716,Sorghum grain,Grano de sorgo,5,1
+2512373,"Flour, sorghum",Harina de sorgo,5,1
+169662,"Syrups, sorghum","Sirupes, sorgo",5,1
+170286,Buckwheat,Trigo sarraceno,5,1
+2708362,Buckwheat groats,Granos de trigo sarraceno,5,1
+2512374,"Flour, buckwheat",Harina de trigo sarraceno,5,1
+170287,"Bulgur, cooked","Bulgur, cocido",5,1
+170688,"Bulgur, dry","Bulgur, seco",5,1
+2710820,"Bulgur, dry, raw","Bulgur, seco, crudo",5,1
+169700,"Couscous, cooked","Cuscús, cocido",5,1
+169699,"Couscous, dry","Cuscús, seco",5,1
+2708441,"Couscous, plain, cooked","Cuscús, sin condimentar, cocido",5,1
+2710828,"Farro, pearled, dry, raw","Farro, descascarillado, seco, crudo",5,1
+169746,"Spelt, cooked","Espelta, cocida",5,1
+169745,"Spelt, uncooked","Espelta, sin cocer",5,1
+2003587,"Flour, spelt, whole grain",Harina de espelta integral,5,1
+168918,"Teff, cooked","Teff, cocido",5,1
+169747,"Teff, uncooked","Teff, sin cocer",5,1
+168920,"Corn grain, white","Grano de maíz, blanco",5,1
+168538,"Corn, sweet, white, raw","Maíz dulce, blanco, crudo",5,1
+168037,"Corn, white, steamed (Navajo)","Maíz blanco, cocido al vapor (Navajo)",5,1
+170288,"Corn grain, yellow","Grano de maíz, amarillo",5,1
+169998,"Corn, sweet, yellow, raw","Maíz dulce, amarillo, crudo",5,1
+170290,"Corn flour, whole-grain, yellow",Harina de maíz integral amarilla,5,1
+790085,"Flour, whole wheat, unenriched","Harina integral, sin enriquecer",5,1
+168913,"Wheat flours, bread, unenriched","Harinas de trigo, pan, sin enriquecer",5,1
+789890,"Flour, wheat, all-purpose, enriched, bleached","Harina de trigo, para todo uso, enriquecida, blanqueada",5,1
+789951,"Flour, wheat, all-purpose, enriched, unbleached","Harina de trigo, para todo uso, enriquecida, sin blanquear",5,1
+790018,"Flour, wheat, all-purpose, unenriched, unbleached","Harina de trigo, para todo uso, sin enriquecer, sin blanquear",5,1
+168893,"Wheat flour, whole-grain (Includes foods for USDA's Food Distribution Program)",Harina de trigo integral (incluye alimentos para el Programa de Distribución de Alimentos del Departamento de Agricultura de los Estados Unidos [USDA]),5,1
+2707815,"Corn flour patty or tart, fried","Tortita o tartaleta de harina de maíz, frita",5,1
+1104867,"Flour, rice, glutinous","Harina, arroz, glutinoso",5,1
+169741,"Oat flour, partially debranned","Harina de avena, parcialmente descascarillada",5,1
+170687,"Buckwheat flour, whole-groat","Harina de trigo sarraceno, grano entero",5,1
+171862,"Rolls, gluten-free, white, made with rice flour, rice starch, and corn starch","Panecillos sin gluten, blancos, elaborados con harina de arroz, almidón de arroz y almidón de maíz",5,1
+174100,"Bread, gluten-free, white, made with rice flour, corn starch, and/or tapioca","Pan sin gluten, blanco, elaborado con harina de arroz, almidón de maíz y/o tapioca",5,1
+174103,"Crackers, gluten-free, multigrain and vegetable, made with corn starch and white rice flour","Galletas saladas, sin gluten, multigrano y vegetales, elaboradas con almidón de maíz y harina de arroz blanco",5,1
+171861,"Rolls, gluten-free, white, made with brown rice flour, tapioca starch, and potato starch","Panecillos sin gluten, blancos, elaborados con harina de arroz integral, almidón de tapioca y fécula de patata",5,1
+174099,"Bread, gluten-free, white, made with potato extract, rice starch, and rice flour","Pan sin gluten, blanco, elaborado con extracto de patata, almidón de arroz y harina de arroz",5,1
+2515377,"Flour, chestnut",Harina de castaña,5,1
+171863,"Rolls, gluten-free, white, made with brown rice flour, tapioca starch, and sorghum flour","Panecillos sin gluten, blancos, elaborados con harina de arroz integral, almidón de tapioca y harina de sorgo",5,1
+174101,"Bread, gluten-free, white, made with tapioca starch and brown rice flour","Pan sin gluten, blanco, elaborado con almidón de tapioca y harina de arroz integral",5,1

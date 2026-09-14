@@ -1,0 +1,221 @@
+# Beverages
+
+## Water and Hydration
+- Natural water
+- Sparkling mineral water
+- Still mineral water
+- Flavored water
+- Coconut water
+- Tonic water
+- Sparkling water
+- Soda water
+- Alkaline water
+- Distilled water
+- Electrolyte water
+- Jamaica water
+- Hibiscus water
+- Horchata water
+- Lemon water
+- Chia water
+- Barley water
+- Lemonade
+- Coconut lemonade
+- Ginger lemonade
+
+## Coffee and Tea
+- Black coffee
+- Coffee with milk
+- Espresso
+- Cappuccino
+- Latte
+- Americano
+- Mocha
+- Instant coffee
+- Decaffeinated coffee
+- Cold brew
+- Coffee frappé
+- Black tea
+- Green tea
+- Chamomile tea
+- Mint tea
+- Spearmint tea
+- Mixed herb tea
+- Chai tea
+- Ginger tea
+- Lemon tea
+- Boldo tea
+- Anise tea
+- Fruit infusion
+- Matcha
+- Yerba mate
+- Red tea
+- Pu-erh
+- White tea
+- Café de olla
+- Turkish coffee
+- Irish coffee
+- Chai latte
+- Golden milk
+- Golden milk
+
+## Juices and Smoothies
+- Orange juice
+- Apple juice
+- Pineapple juice
+- Carrot juice
+- Grape juice
+- Grapefruit juice
+- Mango juice
+- Watermelon juice
+- Lemonade juice
+- Tomato juice
+- Blueberry juice
+- Cranberry juice
+- Pear juice
+- Peach juice
+- Mixed juice
+- Green juice
+- Beet juice
+- Celery juice
+- Fruit smoothie
+- Vegetable smoothie
+- Protein smoothie
+- Fruit nectar
+- Aloe vera juice
+
+## Soft Drinks and Sodas
+- Cola
+- Coca-Cola
+- Cola light
+- Cola zero
+- Lemon-lime Sprite
+- Lemon-lime 7Up
+- Orange Fanta
+- Apple soda
+- Ginger ale
+- Tonic
+- Orange soda
+- Apple soda
+- Grape soda
+- Cream soda
+- Root beer
+- Dr Pepper
+- Cherry cola
+- Diet soda
+- Diet soda
+
+## Energy and Sports Drinks
+- Energy drink
+- Red Bull
+- Monster
+- Isotonic drink
+- Gatorade
+- Sports drink
+- Powerade
+- Caffeinated drink
+- Taurine drink
+- Vitamin drink
+- Pre-workout drink
+- Recovery drink
+
+## Milk and Dairy Beverages
+- Whole milk
+- Skim milk
+- Lactose-free milk
+- Almond milk
+- Oat milk
+- Soy milk
+- Rice milk
+- Coconut milk
+- Hemp milk
+- Hazelnut milk
+- Macadamia milk
+- Milkshake
+- Milkshake
+- Chocolate milk
+- Milkshake
+- Liquid kefir
+- Lassi
+- Indian yogurt drink
+- Ayran
+- Yogurt drink
+
+## Hot Beverages
+- Hot chocolate
+- Atole
+- Corn masa atole
+- Champurrado
+- Chocolate atole
+- Hot cocoa
+- Hot milk with honey
+- Chicken broth
+- Fruit punch
+- Hot cider
+- Hot wine
+- Mulled wine
+- Café de olla
+- Turkish coffee
+- Irish coffee
+- Chai latte
+- Golden milk
+- Golden milk
+
+## Alcoholic Beverages
+- Lager beer
+- Ale beer
+- IPA beer
+- Stout beer
+- Non-alcoholic beer
+- Red wine
+- White wine
+- Rosé wine
+- Sparkling wine
+- Champagne
+- Cava
+- Prosecco
+- Sangria
+- Clamato cocktail
+- Tequila
+- Rum
+- Vodka
+- Whisky
+- Bourbon
+- Brandy
+- Cognac
+- Mezcal
+- Gin
+- Coffee liqueur
+- Fruit liqueur
+- Piña colada
+- Margarita
+- Mojito
+- Michelada
+- Chelada
+- Cuba libre
+- Tinto de verano
+
+## Traditional and Regional Beverages
+- Horchata
+- Rice horchata
+- Jamaica
+- Hibiscus jamaica
+- Tamarind drink
+- Atole
+- Champurrado
+- Chicha
+- Guarapo
+- Sugarcane juice
+- Mate
+- Chicha morada
+- Emoliente
+- Aguapanela
+- Tepache
+- Pulque
+- Kombucha
+- Kvass
+- Prickly pear water
+- Watermelon water
+- Melon fresca
+- Soursop fresca
+- Passion fruit fresca
+- Lemon fresca
