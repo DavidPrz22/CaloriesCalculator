@@ -23,4 +23,4 @@ ENV NODE_ENV=production
 ENV FOOD_DATA_PATH=/app/food_data/foods_fdc
 EXPOSE 3000
 
-CMD ["sh", "-c", "echo DATABASE_URL_SET=${DATABASE_URL:+yes} && npx prisma db push --accept-data-loss && npx tsx prisma/scripts/seed_demo.ts && exec npx tsx nodeApp/app.ts"]
+CMD ["sh", "-c", "echo DATABASE_URL_SET=${DATABASE_URL:+yes} && npx prisma migrate deploy && npx tsx prisma/scripts/seed_demo.ts && exec npx tsx nodeApp/app.ts"]
