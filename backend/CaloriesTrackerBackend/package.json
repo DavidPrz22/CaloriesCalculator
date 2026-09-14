@@ -41,5 +41,13 @@
     "prisma": "^7.8.0",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "prisma",
+      "@prisma/engines",
+      "bcrypt",
+      "esbuild"
+    ]
   }
 }
