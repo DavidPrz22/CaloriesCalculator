@@ -19,11 +19,16 @@ export function getPublicUserRoutes() {
         if (!validationResult.success) {
             return res.status(400).json({ error: validationResult.error });
         }
-        const user = await UserController.loginUser({ username, password });
-        const { access, refresh } = await UserController.generateTokens({ id: user.id, username: user.username });
-        await UserController.updateRefreshTokenInDB(user.id, refresh);
-        res.cookie('refreshToken', refresh, getCookieOptions());
-        res.json({ message: 'Login successful', user, accessToken: access });
+        try {
+            const user = await UserController.loginUser({ username, password });
+            const { access, refresh } = await UserController.generateTokens({ id: user.id, username: user.username });
+            await UserController.updateRefreshTokenInDB(user.id, refresh);
+            res.cookie('refreshToken', refresh, getCookieOptions());
+            res.json({ message: 'Login successful', user, accessToken: access });
+        }
+        catch (error) {
+            return res.status(401).json({ error: error.message });
+        }
     });
     userRoutes.post('/signup', async (req, res) => {
         const { username, password } = req.body;
@@ -40,11 +45,16 @@ export function getPublicUserRoutes() {
     userRoutes.post('/demo-login', async (req, res) => {
         const demoUsername = 'demo@caloriestracker.com';
         const demoPassword = 'demo1234';
-        const user = await UserController.loginUser({ username: demoUsername, password: demoPassword });
-        const { access, refresh } = await UserController.generateTokens({ id: user.id, username: user.username });
-        await UserController.updateRefreshTokenInDB(user.id, refresh);
-        res.cookie('refreshToken', refresh, getCookieOptions());
-        res.json({ message: 'Demo login successful', user, accessToken: access });
+        try {
+            const user = await UserController.loginUser({ username: demoUsername, password: demoPassword });
+            const { access, refresh } = await UserController.generateTokens({ id: user.id, username: user.username });
+            await UserController.updateRefreshTokenInDB(user.id, refresh);
+            res.cookie('refreshToken', refresh, getCookieOptions());
+            res.json({ message: 'Demo login successful', user, accessToken: access });
+        }
+        catch (error) {
+            return res.status(401).json({ error: error.message });
+        }
     });
     userRoutes.post('/refresh-token', async (req, res) => {
         const cookieHeader = req.headers.cookie;

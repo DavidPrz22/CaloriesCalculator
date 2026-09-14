@@ -3,7 +3,7 @@ import foodinfoClient from '../../nodeApp/apis/foodApi/api.js';
 import bcrypt from 'bcrypt';
 import * as fs from 'fs';
 import * as path from 'path';
-const CSV_DIR = '/home/davidprz/projects/CaloriesTracker/food_data/foods_fdc';
+const CSV_DIR = process.env.FOOD_DATA_PATH || '/home/davidprz/projects/CaloriesTracker/food_data/foods_fdc';
 const categorias = [
     { nameES: 'Todas las categorías', nameEN: 'All categories' },
     { nameES: 'Productos horneados', nameEN: 'Baked products' },
@@ -180,8 +180,18 @@ async function seedFoods() {
         console.log(`Foods already seeded (${existingCount} found).`);
         return;
     }
+    if (!fs.existsSync(CSV_DIR)) {
+        console.log(`CSV directory not found: ${CSV_DIR}`);
+        console.log('Skipping food seeding. Run locally to populate food data.');
+        return;
+    }
     let totalCreated = 0;
     for (const file of csvFiles) {
+        const filePath = path.join(CSV_DIR, file);
+        if (!fs.existsSync(filePath)) {
+            console.log(`Skipping ${file} (not found)`);
+            continue;
+        }
         console.log(`Processing ${file}...`);
         const rows = readCSV(file);
         for (const row of rows) {

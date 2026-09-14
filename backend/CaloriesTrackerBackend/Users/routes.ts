@@ -23,13 +23,17 @@ export function getPublicUserRoutes(): RouterType {
             return res.status(400).json({ error: validationResult.error });
         }
 
-        const user = await UserController.loginUser({ username, password });
-        const { access, refresh } = await UserController.generateTokens({ id: user.id, username: user.username });
-    
-        await UserController.updateRefreshTokenInDB(user.id, refresh);
+        try {
+            const user = await UserController.loginUser({ username, password });
+            const { access, refresh } = await UserController.generateTokens({ id: user.id, username: user.username });
+        
+            await UserController.updateRefreshTokenInDB(user.id, refresh);
 
-        res.cookie('refreshToken', refresh, getCookieOptions());
-        res.json({ message: 'Login successful', user, accessToken: access });
+            res.cookie('refreshToken', refresh, getCookieOptions());
+            res.json({ message: 'Login successful', user, accessToken: access });
+        } catch (error) {
+            return res.status(401).json({ error: (error as Error).message });
+        }
     })
 
     userRoutes.post('/signup', async (req, res) => {
@@ -53,13 +57,17 @@ export function getPublicUserRoutes(): RouterType {
         const demoUsername = 'demo@caloriestracker.com';
         const demoPassword = 'demo1234';
 
-        const user = await UserController.loginUser({ username: demoUsername, password: demoPassword });
-        const { access, refresh } = await UserController.generateTokens({ id: user.id, username: user.username });
-    
-        await UserController.updateRefreshTokenInDB(user.id, refresh);
+        try {
+            const user = await UserController.loginUser({ username: demoUsername, password: demoPassword });
+            const { access, refresh } = await UserController.generateTokens({ id: user.id, username: user.username });
+        
+            await UserController.updateRefreshTokenInDB(user.id, refresh);
 
-        res.cookie('refreshToken', refresh, getCookieOptions());
-        res.json({ message: 'Demo login successful', user, accessToken: access });
+            res.cookie('refreshToken', refresh, getCookieOptions());
+            res.json({ message: 'Demo login successful', user, accessToken: access });
+        } catch (error) {
+            return res.status(401).json({ error: (error as Error).message });
+        }
     })
 
     userRoutes.post('/refresh-token', async (req, res) => {
