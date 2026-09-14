@@ -3,7 +3,7 @@ import foodinfoClient from '../../nodeApp/apis/foodApi/api.js';
 import bcrypt from 'bcrypt';
 import * as fs from 'fs';
 import * as path from 'path';
-const CSV_DIR = process.env.FOOD_DATA_PATH || '/home/davidprz/projects/CaloriesTracker/food_data/foods_fdc';
+const CSV_DIR = process.env.FOOD_DATA_PATH || path.join(__dirname, '..', '..', 'food_data', 'foods_fdc');
 const categorias = [
     { nameES: 'Todas las categorías', nameEN: 'All categories' },
     { nameES: 'Productos horneados', nameEN: 'Baked products' },
