@@ -19,8 +19,8 @@ services:
 
   backend:
     build:
-      context: .
-      dockerfile: backend/CaloriesTrackerBackend/Dockerfile
+      context: ./backend/CaloriesTrackerBackend
+      dockerfile: Dockerfile
     container_name: calories-backend
     restart: unless-stopped
     depends_on:

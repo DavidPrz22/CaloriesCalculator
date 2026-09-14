@@ -3,19 +3,19 @@ RUN corepack enable && corepack prepare pnpm@latest --activate
 WORKDIR /app
 
 FROM base AS deps
-COPY backend/CaloriesTrackerBackend/package.json backend/CaloriesTrackerBackend/pnpm-lock.yaml ./
-COPY backend/CaloriesTrackerBackend/prisma ./prisma/
+COPY package.json pnpm-lock.yaml ./
+COPY prisma ./prisma/
 RUN pnpm install --frozen-lockfile
 
 FROM base AS generate
 COPY --from=deps /app/node_modules ./node_modules
 COPY --from=deps /app/prisma ./prisma
-COPY backend/CaloriesTrackerBackend/prisma.config.ts backend/CaloriesTrackerBackend/prisma.config.js backend/CaloriesTrackerBackend/prisma.config.d.ts backend/CaloriesTrackerBackend/prisma.config.d.ts.map ./
-COPY backend/CaloriesTrackerBackend/tsconfig.json ./
-COPY backend/CaloriesTrackerBackend/nodeApp ./nodeApp/
-COPY backend/CaloriesTrackerBackend/Users ./Users/
-COPY backend/CaloriesTrackerBackend/Calories ./Calories/
-COPY backend/CaloriesTrackerBackend/scripts ./scripts/
+COPY prisma.config.ts prisma.config.js prisma.config.d.ts prisma.config.d.ts.map ./
+COPY tsconfig.json ./
+COPY nodeApp ./nodeApp/
+COPY Users ./Users/
+COPY Calories ./Calories/
+COPY scripts ./scripts/
 RUN pnpm prisma generate
 
 FROM base AS build
@@ -23,12 +23,12 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY --from=generate /app/prisma ./prisma
 COPY --from=generate /app/node_modules/.prisma ./node_modules/.prisma
 COPY --from=generate /app/node_modules/@prisma ./node_modules/@prisma
-COPY backend/CaloriesTrackerBackend/prisma.config.ts backend/CaloriesTrackerBackend/prisma.config.js backend/CaloriesTrackerBackend/prisma.config.d.ts backend/CaloriesTrackerBackend/prisma.config.d.ts.map ./
-COPY backend/CaloriesTrackerBackend/tsconfig.json ./
-COPY backend/CaloriesTrackerBackend/nodeApp ./nodeApp/
-COPY backend/CaloriesTrackerBackend/Users ./Users/
-COPY backend/CaloriesTrackerBackend/Calories ./Calories/
-COPY backend/CaloriesTrackerBackend/scripts ./scripts/
+COPY prisma.config.ts prisma.config.js prisma.config.d.ts prisma.config.d.ts.map ./
+COPY tsconfig.json ./
+COPY nodeApp ./nodeApp/
+COPY Users ./Users/
+COPY Calories ./Calories/
+COPY scripts ./scripts/
 RUN pnpm tsc || true
 
 FROM base AS production
@@ -40,7 +40,7 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY --from=generate /app/prisma ./prisma
 COPY --from=generate /app/node_modules/.prisma ./node_modules/.prisma
 COPY --from=generate /app/node_modules/@prisma ./node_modules/@prisma
-COPY backend/CaloriesTrackerBackend/package.json ./
+COPY package.json ./
 
 COPY --from=build /app/nodeApp/*.js ./nodeApp/
 COPY --from=build /app/Users/*.js ./Users/
@@ -53,7 +53,7 @@ COPY --from=build /app/prisma.config.js ./
 
 COPY --from=build /app/nodeApp/apis/foodApi/*.js ./nodeApp/apis/foodApi/
 
-COPY backend/CaloriesTrackerBackend/food_data/foods_fdc /app/food_data/foods_fdc
+COPY food_data/foods_fdc /app/food_data/foods_fdc
 
 EXPOSE 3000
 
