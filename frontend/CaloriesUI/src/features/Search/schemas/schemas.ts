@@ -20,10 +20,10 @@ export const ComidaSchema = z.object({
   nameEN: z.string(),
   categoria: CategoriaSchema,
   medida: MedidaSchema,
-  calories: z.number(),
-  protein: z.number(),
-  carbs: z.number(),
-  fat: z.number(),
+  calories: z.number().nullable(),
+  protein: z.number().nullable(),
+  carbs: z.number().nullable(),
+  fat: z.number().nullable(),
 });
 
 export const CategoriesResponseSchema = z.object({
@@ -52,10 +52,10 @@ export const FoodArgSchema = z.object({
 });
 
 export const NutritionSchema = z.object({
-  calories: z.number(),
-  protein: z.number(),
-  carbs: z.number(),
-  fat: z.number(),
+  calories: z.number().nullable(),
+  protein: z.number().nullable(),
+  carbs: z.number().nullable(),
+  fat: z.number().nullable(),
 });
 
 export const CalculatedItemSchema = z.object({

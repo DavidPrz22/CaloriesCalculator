@@ -70,6 +70,10 @@ The application enables users to search for foods by category, calculate precise
 
 ## Software Architecture
 
+### System Architecture Overview
+
+![System Architecture Overview](./driagrams/System%20Architecture%20Overview.svg)
+
 ### Frontend Architecture
 
 The frontend follows a **feature-based architecture** with clear separation of concerns:
@@ -211,6 +215,9 @@ The database schema follows a **relational model** optimized for nutritional tra
 - Query parameter validation with Zod schemas
 
 **Authentication Flow:**
+
+![Authentication & Security Flow](./driagrams/Authentication%20%26%20Security%20Flow.svg)
+
 1. User registers/logs in → receives JWT access token (2h expiry) + refresh token (httpOnly cookie)
 2. Access token sent in `Authorization: Bearer <token>` header
 3. Refresh token automatically rotated on each use
@@ -258,6 +265,8 @@ Return Enriched Results
 ```
 
 #### 3. Consumption Tracking
+
+![User Journey Flow](./driagrams/User%20Journey%20Flow.svg)
 
 **State Transitions:**
 ```
@@ -419,6 +428,8 @@ VITE_API_BASE_URL=http://localhost:3000
 ---
 
 ## Usage & Routes
+
+![Application Routing Architecture](./driagrams/Application%20Routing%20Architecture.svg)
 
 ### Development Scripts
 
