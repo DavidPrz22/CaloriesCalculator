@@ -711,16 +711,6 @@ Distributed under the ISC License. See `LICENSE` file for more information.
 
 ---
 
-## Contact
-
-**Project Maintainer**: [Your Name]  
-**Email**: [your-email@example.com]  
-**GitHub**: [@yourusername](https://github.com/yourusername)
-
-**Project Link**: [https://github.com/yourusername/CaloriesTracker](https://github.com/yourusername/CaloriesTracker)
-
----
-
 <div align="center">
 
 **Built with passion for healthier living**
